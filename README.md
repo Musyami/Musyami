@@ -12,5 +12,9 @@
 </div>
 
 <div align="center">
+   <img src="./learning.svg" alt="What I'm Learning Rasya" width="100%" />
+   </div>
+
+<div align="center">
   <img src="./connect.svg" alt="Connect with Rasya" width="100%" />
 </div>
