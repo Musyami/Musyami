@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 730" width="100%" height="100%">
+  <defs>
+    <style>
+      .nb-font {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+
+      /* Animasi Naik-Turun (Wave Floating) untuk 3 Card */
+      @keyframes float-card-1 {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      @keyframes float-card-2 {
+        0%, 100% {
+          transform: translateY(-5px);
+        }
+        50% {
+          transform: translateY(5px);
+        }
+      }
+
+      @keyframes float-card-3 {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      .floating-card-1 {
+        animation: float-card-1 3s ease-in-out infinite;
+      }
+
+      .floating-card-2 {
+        animation: float-card-2 3s ease-in-out infinite;
+        animation-delay: -1s;
+      }
+
+      .floating-card-3 {
+        animation: float-card-3 3s ease-in-out infinite;
+        animation-delay: -2s;
+      }
+    </style>
+  </defs>
+
+  <!-- ================= TOP HEADER BADGE: SKILLS & TECH STACK ================= -->
+  <!-- Bayangan Hitam Badge -->
+  <rect x="348" y="33" width="340" height="52" rx="14" fill="#000000" />
+  <!-- Badge Merah -->
+  <rect x="340" y="25" width="340" height="52" rx="14" fill="#FF3B30" stroke="#000000" stroke-width="4.5" />
+  <text class="nb-font" x="510" y="59" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">
+    SKILLS &amp; TECH STACK
+  </text>
+
+
+  <!-- ================= 1. CARD KUNING: LANGUAGES ================= -->
+  <g class="floating-card-1">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 0 -10; 0 0"
+      keyTimes="0; 0.5; 1"
+      dur="3s"
+      repeatCount="indefinite" />
+
+    <!-- Bayangan Hitam Card Kuning -->
+    <rect x="57" y="127" width="290" height="560" rx="22" fill="#000000" />
+    <!-- Card Kuning -->
+    <rect x="45" y="115" width="290" height="560" rx="22" fill="#FFF827" stroke="#000000" stroke-width="4.5" />
+
+    <!-- Header Kategori Badge -->
+    <rect x="84" y="139" width="220" height="38" rx="10" fill="#000000" />
+    <rect x="80" y="135" width="220" height="38" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
+    <text class="nb-font" x="190" y="160" font-size="15" font-weight="900" fill="#FFF827" text-anchor="middle" letter-spacing="0.8">
+      LANGUAGES
+    </text>
+
+    <!-- ITEMS (6 LANGUAGES) -->
+    <!-- 1. HTML -->
+    <rect x="74" y="199" width="240" height="52" rx="12" fill="#000000" />
+    <rect x="70" y="195" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="190" y="227" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">HTML</text>
+
+    <!-- 2. CSS -->
+    <rect x="74" y="271" width="240" height="52" rx="12" fill="#000000" />
+    <rect x="70" y="267" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="190" y="299" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">CSS</text>
+
+    <!-- 3. JavaScript -->
+    <rect x="74" y="343" width="240" height="52" rx="12" fill="#000000" />
+    <rect x="70" y="339" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="190" y="371" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">JavaScript</text>
+
+    <!-- 4. TypeScript -->
+    <rect x="74" y="415" width="240" height="52" rx="12" fill="#000000" />
+    <rect x="70" y="411" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="190" y="443" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">TypeScript</text>
+
+    <!-- 5. Python -->
+    <rect x="74" y="487" width="240" height="52" rx="12" fill="#000000" />
+    <rect x="70" y="483" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="190" y="515" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">Python</text>
+
+    <!-- 6. C++ -->
+    <rect x="74" y="559" width="240" height="52" rx="12" fill="#000000" />
+    <rect x="70" y="555" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="190" y="587" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">C++</text>
+  </g>
+
+
+  <!-- ================= 2. CARD BIRU: FRAMEWORKS & TOOLS ================= -->
+  <g class="floating-card-2">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 -5; 0 5; 0 -5"
+      keyTimes="0; 0.5; 1"
+      dur="3s"
+      repeatCount="indefinite" />
+
+    <!-- Bayangan Hitam Card Biru -->
+    <rect x="377" y="127" width="290" height="560" rx="22" fill="#000000" />
+    <!-- Card Biru -->
+    <rect x="365" y="115" width="290" height="560" rx="22" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
+
+    <!-- Header Kategori Badge -->
+    <rect x="404" y="135" width="220" height="36" rx="10" fill="#000000" />
+    <rect x="400" y="131" width="220" height="36" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
+    <text class="nb-font" x="510" y="155" font-size="13" font-weight="900" fill="#60A5FA" text-anchor="middle" letter-spacing="0.4">
+      FRAMEWORKS &amp; TOOLS
+    </text>
+
+    <!-- ITEMS (9 FRAMEWORKS & TOOLS) -->
+    <!-- 1. React 18 -->
+    <rect x="393" y="180" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="177" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="203" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">React 18</text>
+
+    <!-- 2. Tailwind CSS -->
+    <rect x="393" y="232" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="229" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="255" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Tailwind CSS</text>
+
+    <!-- 3. Git -->
+    <rect x="393" y="284" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="281" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="307" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Git</text>
+
+    <!-- 4. GitHub -->
+    <rect x="393" y="336" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="333" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="359" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">GitHub</text>
+
+    <!-- 5. VS Code -->
+    <rect x="393" y="388" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="385" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="411" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">VS Code</text>
+
+    <!-- 6. Vercel -->
+    <rect x="393" y="440" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="437" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="463" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Vercel</text>
+
+    <!-- 7. Supabase -->
+    <rect x="393" y="492" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="489" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="515" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Supabase</text>
+
+    <!-- 8. Firebase -->
+    <rect x="393" y="544" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="541" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="567" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Firebase</text>
+
+    <!-- 9. Google AI Studio -->
+    <rect x="393" y="596" width="240" height="42" rx="10" fill="#000000" />
+    <rect x="390" y="593" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+    <text class="nb-font" x="510" y="619" font-size="14.5" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Google AI Studio</text>
+  </g>
+
+
+  <!-- ================= 3. CARD HIJAU: ROBOTICS & HARDWARE ================= -->
+  <g class="floating-card-3">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 0 -10; 0 0"
+      keyTimes="0; 0.5; 1"
+      dur="3s"
+      repeatCount="indefinite" />
+
+    <!-- Bayangan Hitam Card Hijau -->
+    <rect x="697" y="127" width="290" height="560" rx="22" fill="#000000" />
+    <!-- Card Hijau -->
+    <rect x="685" y="115" width="290" height="560" rx="22" fill="#1DE034" stroke="#000000" stroke-width="4.5" />
+
+    <!-- Header Kategori Badge -->
+    <rect x="724" y="139" width="220" height="38" rx="10" fill="#000000" />
+    <rect x="720" y="135" width="220" height="38" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
+    <text class="nb-font" x="830" y="160" font-size="13" font-weight="900" fill="#1DE034" text-anchor="middle" letter-spacing="0.4">
+      ROBOTICS &amp; HARDWARE
+    </text>
+
+    <!-- ITEMS (4 ROBOTICS & HARDWARE) -->
+    <!-- 1. Arduino Uno -->
+    <rect x="714" y="214" width="240" height="64" rx="14" fill="#000000" />
+    <rect x="710" y="210" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="830" y="249" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Arduino Uno</text>
+
+    <!-- 2. Arduino IDE -->
+    <rect x="714" y="318" width="240" height="64" rx="14" fill="#000000" />
+    <rect x="710" y="314" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="830" y="353" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Arduino IDE</text>
+
+    <!-- 3. Tinkercad -->
+    <rect x="714" y="422" width="240" height="64" rx="14" fill="#000000" />
+    <rect x="710" y="418" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="830" y="457" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Tinkercad</text>
+
+    <!-- 4. Leanbot -->
+    <rect x="714" y="526" width="240" height="64" rx="14" fill="#000000" />
+    <rect x="710" y="522" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+    <text class="nb-font" x="830" y="561" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Leanbot</text>
+  </g>
+
+</svg>
