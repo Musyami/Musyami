@@ -1,231 +1,399 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 730" width="100%" height="100%">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="730" viewBox="0 0 1020 730">
   <defs>
     <style>
       .nb-font {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       }
 
-      /* Animasi Naik-Turun (Wave Floating) untuk 3 Card */
+      /* Animasi Naik Turun Bergelombang untuk 3 Card */
       @keyframes float-card-1 {
-        0%, 100% {
-          transform: translateY(0px);
-        }
-        50% {
-          transform: translateY(-10px);
-        }
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
       }
-
       @keyframes float-card-2 {
-        0%, 100% {
-          transform: translateY(-5px);
-        }
-        50% {
-          transform: translateY(5px);
-        }
+        0%, 100% { transform: translateY(-5px); }
+        50% { transform: translateY(5px); }
       }
-
       @keyframes float-card-3 {
-        0%, 100% {
-          transform: translateY(0px);
-        }
-        50% {
-          transform: translateY(-10px);
-        }
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
       }
 
-      .floating-card-1 {
-        animation: float-card-1 3s ease-in-out infinite;
+      .card-float-1 {
+        animation: float-card-1 3.2s ease-in-out infinite;
       }
-
-      .floating-card-2 {
-        animation: float-card-2 3s ease-in-out infinite;
-        animation-delay: -1s;
+      .card-float-2 {
+        animation: float-card-2 3.2s ease-in-out infinite;
+        animation-delay: -1.1s;
       }
-
-      .floating-card-3 {
-        animation: float-card-3 3s ease-in-out infinite;
-        animation-delay: -2s;
+      .card-float-3 {
+        animation: float-card-3 3.2s ease-in-out infinite;
+        animation-delay: -2.2s;
       }
     </style>
   </defs>
 
   <!-- ================= TOP HEADER BADGE: SKILLS & TECH STACK ================= -->
-  <!-- Bayangan Hitam Badge -->
-  <rect x="348" y="33" width="340" height="52" rx="14" fill="#000000" />
-  <!-- Badge Merah -->
-  <rect x="340" y="25" width="340" height="52" rx="14" fill="#FF3B30" stroke="#000000" stroke-width="4.5" />
-  <text class="nb-font" x="510" y="59" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">
-    SKILLS &amp; TECH STACK
-  </text>
+  <g transform="translate(340, 25)">
+    <!-- Bayangan Hitam Badge -->
+    <rect x="8" y="8" width="340" height="52" rx="14" fill="#000000" />
+    <!-- Badge Merah -->
+    <rect x="0" y="0" width="340" height="52" rx="14" fill="#FF3B30" stroke="#000000" stroke-width="4.5" />
+    <text class="nb-font" x="170" y="34" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">
+      SKILLS &amp; TECH STACK
+    </text>
+  </g>
 
 
   <!-- ================= 1. CARD KUNING: LANGUAGES ================= -->
-  <g class="floating-card-1">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0 0; 0 -10; 0 0"
-      keyTimes="0; 0.5; 1"
-      dur="3s"
-      repeatCount="indefinite" />
+  <g transform="translate(45, 115)">
+    <g class="card-float-1">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 0 -10; 0 0"
+        keyTimes="0; 0.5; 1"
+        dur="3.2s"
+        repeatCount="indefinite" />
 
-    <!-- Bayangan Hitam Card Kuning -->
-    <rect x="57" y="127" width="290" height="560" rx="22" fill="#000000" />
-    <!-- Card Kuning -->
-    <rect x="45" y="115" width="290" height="560" rx="22" fill="#FFF827" stroke="#000000" stroke-width="4.5" />
+      <!-- Bayangan Hitam Card Kuning -->
+      <rect x="12" y="12" width="290" height="560" rx="22" fill="#000000" />
+      <!-- Card Kuning -->
+      <rect x="0" y="0" width="290" height="560" rx="22" fill="#FFF827" stroke="#000000" stroke-width="4.5" />
 
-    <!-- Header Kategori Badge -->
-    <rect x="84" y="139" width="220" height="38" rx="10" fill="#000000" />
-    <rect x="80" y="135" width="220" height="38" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
-    <text class="nb-font" x="190" y="160" font-size="15" font-weight="900" fill="#FFF827" text-anchor="middle" letter-spacing="0.8">
-      LANGUAGES
-    </text>
+      <!-- Header Kategori Badge -->
+      <g transform="translate(35, 24)">
+        <rect x="4" y="4" width="220" height="38" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="220" height="38" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
+        <!-- Vector Lightning Bolt Icon -->
+        <g transform="translate(42, 8)">
+          <polygon points="9,1 3,11 8,11 6,21 16,9 11,9" fill="#FFF827" stroke="#000000" stroke-width="0.5" />
+        </g>
+        <text class="nb-font" x="124" y="25" font-size="15" font-weight="900" fill="#FFF827" text-anchor="middle" letter-spacing="0.8">
+          LANGUAGES
+        </text>
+      </g>
 
-    <!-- ITEMS (6 LANGUAGES) -->
-    <!-- 1. HTML -->
-    <rect x="74" y="199" width="240" height="52" rx="12" fill="#000000" />
-    <rect x="70" y="195" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="190" y="227" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">HTML</text>
+      <!-- ITEMS (6 LANGUAGES) -->
+      <!-- 1. HTML -->
+      <g transform="translate(25, 82)">
+        <rect x="4" y="4" width="240" height="52" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Logo HTML5 Shield -->
+        <g transform="translate(18, 11)">
+          <path d="M2 1 L28 1 L25.5 25 L15 28.5 L4.5 25 Z" fill="#E44D26"/>
+          <path d="M15 3.5 L25.5 3.5 L23.5 23 L15 26 Z" fill="#F16529"/>
+          <path d="M15 7 L8 7 L8.5 12 L15 12 L15 15.5 L10.5 15.5 L10.8 19 L15 20.2 L15 23.5 L9.5 22 L9 17 L6 17 L7 25 L15 27.2 L15 7 Z" fill="#EBEBEB"/>
+          <path d="M15 7 L22 7 L21.5 12 L15 12 L15 15.5 L19.5 15.5 L19 22 L15 23.5 L15 20.2 L18 19.2 L18.3 17 L15 17 Z" fill="#FFFFFF"/>
+        </g>
+        <text class="nb-font" x="65" y="32" font-size="16" font-weight="900" fill="#000000">HTML5</text>
+      </g>
 
-    <!-- 2. CSS -->
-    <rect x="74" y="271" width="240" height="52" rx="12" fill="#000000" />
-    <rect x="70" y="267" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="190" y="299" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">CSS</text>
+      <!-- 2. CSS -->
+      <g transform="translate(25, 146)">
+        <rect x="4" y="4" width="240" height="52" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Logo CSS3 Shield -->
+        <g transform="translate(18, 11)">
+          <path d="M2 1 L28 1 L25.5 25 L15 28.5 L4.5 25 Z" fill="#1572B6"/>
+          <path d="M15 3.5 L25.5 3.5 L23.5 23 L15 26 Z" fill="#33A9DC"/>
+          <path d="M15 7 L7.5 7 L8 12 L15 12 L15 15.5 L8.5 15.5 L9 22 L15 23.8 L15 20.5 L11.5 19.5 L11.2 17.5 L15 17.5 Z" fill="#EBEBEB"/>
+          <path d="M15 7 L22.5 7 L22 12 L15 12 L15 15.5 L21.5 15.5 L20.5 22 L15 23.8 L15 20.5 L18.5 19.5 L18.8 17.5 L15 17.5 Z" fill="#FFFFFF"/>
+        </g>
+        <text class="nb-font" x="65" y="32" font-size="16" font-weight="900" fill="#000000">CSS3</text>
+      </g>
 
-    <!-- 3. JavaScript -->
-    <rect x="74" y="343" width="240" height="52" rx="12" fill="#000000" />
-    <rect x="70" y="339" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="190" y="371" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">JavaScript</text>
+      <!-- 3. JavaScript -->
+      <g transform="translate(25, 210)">
+        <rect x="4" y="4" width="240" height="52" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Logo JS Yellow Box -->
+        <g transform="translate(18, 12)">
+          <rect width="28" height="28" rx="4" fill="#F7DF1E"/>
+          <text x="14" y="22" font-family="system-ui" font-size="13" font-weight="900" fill="#000000" letter-spacing="-0.5">JS</text>
+        </g>
+        <text class="nb-font" x="65" y="32" font-size="16" font-weight="900" fill="#000000">JavaScript</text>
+      </g>
 
-    <!-- 4. TypeScript -->
-    <rect x="74" y="415" width="240" height="52" rx="12" fill="#000000" />
-    <rect x="70" y="411" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="190" y="443" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">TypeScript</text>
+      <!-- 4. TypeScript -->
+      <g transform="translate(25, 274)">
+        <rect x="4" y="4" width="240" height="52" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Logo TS Blue Box -->
+        <g transform="translate(18, 12)">
+          <rect width="28" height="28" rx="4" fill="#3178C6"/>
+          <text x="13" y="22" font-family="system-ui" font-size="13" font-weight="900" fill="#FFFFFF" letter-spacing="-0.5">TS</text>
+        </g>
+        <text class="nb-font" x="65" y="32" font-size="16" font-weight="900" fill="#000000">TypeScript</text>
+      </g>
 
-    <!-- 5. Python -->
-    <rect x="74" y="487" width="240" height="52" rx="12" fill="#000000" />
-    <rect x="70" y="483" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="190" y="515" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">Python</text>
+      <!-- 5. Python -->
+      <g transform="translate(25, 338)">
+        <rect x="4" y="4" width="240" height="52" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Logo Python (Blue/Yellow Snake) -->
+        <g transform="translate(18, 11)">
+          <path d="M14 2 C7.5 2 8 5 8 5 L8 8 L14.5 8 L14.5 9 L5 9 C5 9 2 8.5 2 15 C2 21.5 5 21 5 21 L7 21 L7 18 C7 14.5 10 14.5 10 14.5 L16.5 14.5 C16.5 14.5 20 14.5 20 11 L20 5 C20 5 20.5 2 14 2 Z" fill="#3776AB"/>
+          <circle cx="10" cy="5" r="1.3" fill="#FFFFFF"/>
+          <path d="M14 26 C20.5 26 20 23 20 23 L20 20 L13.5 20 L13.5 19 L23 19 C23 19 26 19.5 26 13 C26 6.5 23 7 23 7 L21 7 L21 10 C21 13.5 18 13.5 18 13.5 L11.5 13.5 C11.5 13.5 8 13.5 8 17 L8 23 C8 23 7.5 26 14 26 Z" fill="#FFD43B"/>
+          <circle cx="18" cy="23" r="1.3" fill="#000000"/>
+        </g>
+        <text class="nb-font" x="65" y="32" font-size="16" font-weight="900" fill="#000000">Python</text>
+      </g>
 
-    <!-- 6. C++ -->
-    <rect x="74" y="559" width="240" height="52" rx="12" fill="#000000" />
-    <rect x="70" y="555" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="190" y="587" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.4">C++</text>
+      <!-- 6. C++ -->
+      <g transform="translate(25, 402)">
+        <rect x="4" y="4" width="240" height="52" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="52" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Logo C++ Hexagon / Badge -->
+        <g transform="translate(18, 12)">
+          <path d="M14 1 L26 8 L26 21 L14 28 L2 21 L2 8 Z" fill="#00599C"/>
+          <text x="7" y="19" font-family="system-ui" font-size="11" font-weight="900" fill="#FFFFFF">C++</text>
+        </g>
+        <text class="nb-font" x="65" y="32" font-size="16" font-weight="900" fill="#000000">C++</text>
+      </g>
+    </g>
   </g>
 
 
   <!-- ================= 2. CARD BIRU: FRAMEWORKS & TOOLS ================= -->
-  <g class="floating-card-2">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0 -5; 0 5; 0 -5"
-      keyTimes="0; 0.5; 1"
-      dur="3s"
-      repeatCount="indefinite" />
+  <g transform="translate(365, 115)">
+    <g class="card-float-2">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 -5; 0 5; 0 -5"
+        keyTimes="0; 0.5; 1"
+        dur="3.2s"
+        repeatCount="indefinite" />
 
-    <!-- Bayangan Hitam Card Biru -->
-    <rect x="377" y="127" width="290" height="560" rx="22" fill="#000000" />
-    <!-- Card Biru -->
-    <rect x="365" y="115" width="290" height="560" rx="22" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
+      <!-- Bayangan Hitam Card Biru -->
+      <rect x="12" y="12" width="290" height="560" rx="22" fill="#000000" />
+      <!-- Card Biru -->
+      <rect x="0" y="0" width="290" height="560" rx="22" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
 
-    <!-- Header Kategori Badge -->
-    <rect x="404" y="135" width="220" height="36" rx="10" fill="#000000" />
-    <rect x="400" y="131" width="220" height="36" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
-    <text class="nb-font" x="510" y="155" font-size="13" font-weight="900" fill="#60A5FA" text-anchor="middle" letter-spacing="0.4">
-      FRAMEWORKS &amp; TOOLS
-    </text>
+      <!-- Header Kategori Badge -->
+      <g transform="translate(35, 16)">
+        <rect x="4" y="4" width="220" height="36" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="220" height="36" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
+        <!-- Vector Wrench/Tool Icon -->
+        <g transform="translate(22, 9)">
+          <path d="M14 2 C11.5 2 9.5 3.5 8.7 5.7 L11.5 8.5 C12.2 8.2 13 8 14 8 C15.5 8 16.8 8.6 17.8 9.6 L15 12.4 L17.6 15 L20.4 12.2 C21.4 13.2 22 14.5 22 16 C22 17 21.8 17.8 21.5 18.5 L24.3 21.3 C26.5 20.5 28 18.5 28 16 C28 11.5 24.5 8 20 8 C19.5 8 19 8.1 18.5 8.2 L15.7 5.4 C16.5 4.5 17 3.3 17 2 Z" fill="#297DFA" transform="scale(0.65)"/>
+        </g>
+        <text class="nb-font" x="120" y="24" font-size="13" font-weight="900" fill="#297DFA" text-anchor="middle" letter-spacing="0.4">
+          FRAMEWORKS &amp; TOOLS
+        </text>
+      </g>
 
-    <!-- ITEMS (9 FRAMEWORKS & TOOLS) -->
-    <!-- 1. React 18 -->
-    <rect x="393" y="180" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="177" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="203" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">React 18</text>
+      <!-- ITEMS (9 FRAMEWORKS & TOOLS) - Compact 42px Height -->
+      <!-- 1. React 18 -->
+      <g transform="translate(25, 62)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- React Atom Logo -->
+        <g transform="translate(18, 9)">
+          <ellipse cx="12" cy="12" rx="11" ry="4.5" fill="none" stroke="#61DAFB" stroke-width="1.8"/>
+          <ellipse cx="12" cy="12" rx="11" ry="4.5" fill="none" stroke="#61DAFB" stroke-width="1.8" transform="rotate(60 12 12)"/>
+          <ellipse cx="12" cy="12" rx="11" ry="4.5" fill="none" stroke="#61DAFB" stroke-width="1.8" transform="rotate(120 12 12)"/>
+          <circle cx="12" cy="12" r="2.2" fill="#61DAFB"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">React 18</text>
+      </g>
 
-    <!-- 2. Tailwind CSS -->
-    <rect x="393" y="232" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="229" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="255" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Tailwind CSS</text>
+      <!-- 2. Tailwind CSS -->
+      <g transform="translate(25, 114)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- Tailwind Wave Logo -->
+        <g transform="translate(17, 10)">
+          <path d="M6 12C7.5 7.5 11 6 13.5 8C16 10 18 11.5 21 8C19.5 12.5 16 14 13.5 12C11 10 9 8.5 6 12ZM1 18C2.5 13.5 6 12 8.5 14C11 16 13 17.5 16 14C14.5 18.5 11 20 8.5 18C6 16 4 14.5 1 18Z" fill="#06B6D4"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">Tailwind CSS</text>
+      </g>
 
-    <!-- 3. Git -->
-    <rect x="393" y="284" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="281" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="307" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Git</text>
+      <!-- 3. Git -->
+      <g transform="translate(25, 166)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- Git Orange Diamond -->
+        <g transform="translate(18, 9)">
+          <rect x="3" y="3" width="18" height="18" rx="3.5" fill="#F05032" transform="rotate(45 12 12)"/>
+          <circle cx="8" cy="12" r="2" fill="#FFFFFF"/>
+          <circle cx="16" cy="9" r="2" fill="#FFFFFF"/>
+          <circle cx="16" cy="16" r="2" fill="#FFFFFF"/>
+          <line x1="8" y1="12" x2="16" y2="16" stroke="#FFFFFF" stroke-width="1.8"/>
+          <line x1="16" y1="9" x2="16" y2="16" stroke="#FFFFFF" stroke-width="1.8"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">Git</text>
+      </g>
 
-    <!-- 4. GitHub -->
-    <rect x="393" y="336" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="333" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="359" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">GitHub</text>
+      <!-- 4. GitHub -->
+      <g transform="translate(25, 218)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- GitHub Octocat Invertocat -->
+        <g transform="translate(18, 9)">
+          <path d="M12 2C6.48 2 2 6.48 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.52 21.27 9.52 21C9.52 20.77 9.51 19.98 9.51 19.16C7 19.62 6.35 18.42 6.15 17.86C6.04 17.58 5.55 16.69 5.12 16.45C4.77 16.26 4.27 15.8 5.11 15.79C5.9 15.78 6.47 16.51 6.66 16.82C7.56 18.33 9 17.9 9.57 17.65C9.66 17 9.94 16.53 10.24 16.27C7.97 16.01 5.6 15.13 5.6 11.23C5.6 10.12 6 9.2 6.65 8.48C6.55 8.22 6.2 7.18 6.75 5.79C6.75 5.79 7.61 5.52 9.56 6.84C10.38 6.61 11.26 6.5 12.14 6.5C13.02 6.5 13.9 6.61 14.72 6.84C16.67 5.51 17.53 5.79 17.53 5.79C18.08 7.18 17.73 8.22 17.63 8.48C18.28 9.2 18.68 10.11 18.68 11.23C18.68 15.14 16.3 16.01 14.03 16.27C14.41 16.6 14.74 17.23 14.74 18.22C14.74 19.64 14.73 20.78 14.73 21C14.73 21.28 14.91 21.6 15.42 21.5C19.38 20.17 22.25 16.41 22.25 12C22.25 6.48 17.77 2 12 2Z" fill="#181717"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">GitHub</text>
+      </g>
 
-    <!-- 5. VS Code -->
-    <rect x="393" y="388" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="385" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="411" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">VS Code</text>
+      <!-- 5. VS Code -->
+      <g transform="translate(25, 270)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- VS Code Logo -->
+        <g transform="translate(18, 9)">
+          <path d="M17 2 L22 6 L22 18 L17 22 L11 16 L6 20 L2 18 L5 12 L2 6 L6 4 L11 8 Z" fill="#007ACC"/>
+          <path d="M17 2 L22 6 L22 18 L17 22 L11 16 Z" fill="#0065A9"/>
+          <path d="M17 2 L11 8 L6 4 L2 6 L5 12 Z" fill="#1F9CF0"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">VS Code</text>
+      </g>
 
-    <!-- 6. Vercel -->
-    <rect x="393" y="440" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="437" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="463" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Vercel</text>
+      <!-- 6. Vercel -->
+      <g transform="translate(25, 322)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- Vercel Triangle -->
+        <g transform="translate(18, 10)">
+          <polygon points="12,2 23,21 1,21" fill="#000000"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">Vercel</text>
+      </g>
 
-    <!-- 7. Supabase -->
-    <rect x="393" y="492" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="489" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="515" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Supabase</text>
+      <!-- 7. Supabase -->
+      <g transform="translate(25, 374)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- Supabase Lightning Wave -->
+        <g transform="translate(18, 9)">
+          <path d="M13 1 L3 13 C2.5 13.5 2.8 14.5 3.6 14.5 L12 14.5 L10 23 L20 11 C20.5 10.5 20.2 9.5 19.4 9.5 L11 9.5 Z" fill="#3ECF8E"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">Supabase</text>
+      </g>
 
-    <!-- 8. Firebase -->
-    <rect x="393" y="544" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="541" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="567" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Firebase</text>
+      <!-- 8. Firebase -->
+      <g transform="translate(25, 426)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- Firebase Flame -->
+        <g transform="translate(19, 9)">
+          <path d="M3 18 L7 3 L10.5 9 Z" fill="#FFA000"/>
+          <path d="M19 18 L15 7 L12 12 Z" fill="#F57C00"/>
+          <path d="M3 18 L19 18 L11 23 Z" fill="#FFCA28"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">Firebase</text>
+      </g>
 
-    <!-- 9. Google AI Studio -->
-    <rect x="393" y="596" width="240" height="42" rx="10" fill="#000000" />
-    <rect x="390" y="593" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
-    <text class="nb-font" x="510" y="619" font-size="14.5" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.2">Google AI Studio</text>
+      <!-- 9. Google AI Studio -->
+      <g transform="translate(25, 478)">
+        <rect x="3" y="3" width="240" height="42" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="240" height="42" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+        <!-- Google AI 4-Point Star -->
+        <g transform="translate(19, 9)">
+          <path d="M12 1 Q12 12 23 12 Q12 12 12 23 Q12 12 1 12 Q12 12 12 1 Z" fill="#1A73E8"/>
+          <circle cx="12" cy="12" r="3.5" fill="#4285F4"/>
+          <circle cx="12" cy="12" r="1.8" fill="#FFFFFF"/>
+        </g>
+        <text class="nb-font" x="55" y="26" font-size="14" font-weight="900" fill="#000000">Google AI Studio</text>
+      </g>
+    </g>
   </g>
 
 
   <!-- ================= 3. CARD HIJAU: ROBOTICS & HARDWARE ================= -->
-  <g class="floating-card-3">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0 0; 0 -10; 0 0"
-      keyTimes="0; 0.5; 1"
-      dur="3s"
-      repeatCount="indefinite" />
+  <g transform="translate(685, 115)">
+    <g class="card-float-3">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 0 -10; 0 0"
+        keyTimes="0; 0.5; 1"
+        dur="3.2s"
+        repeatCount="indefinite" />
 
-    <!-- Bayangan Hitam Card Hijau -->
-    <rect x="697" y="127" width="290" height="560" rx="22" fill="#000000" />
-    <!-- Card Hijau -->
-    <rect x="685" y="115" width="290" height="560" rx="22" fill="#1DE034" stroke="#000000" stroke-width="4.5" />
+      <!-- Bayangan Hitam Card Hijau -->
+      <rect x="12" y="12" width="290" height="560" rx="22" fill="#000000" />
+      <!-- Card Hijau -->
+      <rect x="0" y="0" width="290" height="560" rx="22" fill="#1DE034" stroke="#000000" stroke-width="4.5" />
 
-    <!-- Header Kategori Badge -->
-    <rect x="724" y="139" width="220" height="38" rx="10" fill="#000000" />
-    <rect x="720" y="135" width="220" height="38" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
-    <text class="nb-font" x="830" y="160" font-size="13" font-weight="900" fill="#1DE034" text-anchor="middle" letter-spacing="0.4">
-      ROBOTICS &amp; HARDWARE
-    </text>
+      <!-- Header Kategori Badge -->
+      <g transform="translate(35, 24)">
+        <rect x="4" y="4" width="220" height="38" rx="10" fill="#000000" />
+        <rect x="0" y="0" width="220" height="38" rx="10" fill="#000000" stroke="#000000" stroke-width="2" />
+        <!-- Vector Robot Head Icon -->
+        <g transform="translate(24, 11)">
+          <rect x="1" y="4" width="14" height="11" rx="2.5" fill="#1DE034" stroke="#000000" stroke-width="0.5"/>
+          <circle cx="5" cy="9.5" r="1.5" fill="#000000"/>
+          <circle cx="11" cy="9.5" r="1.5" fill="#000000"/>
+          <line x1="8" y1="1" x2="8" y2="4" stroke="#1DE034" stroke-width="1.5"/>
+          <circle cx="8" cy="1" r="1" fill="#1DE034"/>
+        </g>
+        <text class="nb-font" x="120" y="25" font-size="13" font-weight="900" fill="#1DE034" text-anchor="middle" letter-spacing="0.4">
+          ROBOTICS &amp; HARDWARE
+        </text>
+      </g>
 
-    <!-- ITEMS (4 ROBOTICS & HARDWARE) -->
-    <!-- 1. Arduino Uno -->
-    <rect x="714" y="214" width="240" height="64" rx="14" fill="#000000" />
-    <rect x="710" y="210" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="830" y="249" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Arduino Uno</text>
+      <!-- ITEMS (4 ROBOTICS & HARDWARE) -->
+      <!-- 1. Arduino Uno -->
+      <g transform="translate(25, 95)">
+        <rect x="4" y="4" width="240" height="58" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="58" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Arduino Logo Infinity -->
+        <g transform="translate(18, 14)">
+          <circle cx="9" cy="15" r="7.5" fill="none" stroke="#00979D" stroke-width="2.5"/>
+          <circle cx="21" cy="15" r="7.5" fill="none" stroke="#00979D" stroke-width="2.5"/>
+          <text x="7" y="18" font-family="system-ui" font-size="9" font-weight="900" fill="#00979D">-</text>
+          <text x="18" y="18" font-family="system-ui" font-size="9" font-weight="900" fill="#00979D">+</text>
+        </g>
+        <text class="nb-font" x="65" y="35" font-size="16" font-weight="900" fill="#000000">Arduino Uno</text>
+      </g>
 
-    <!-- 2. Arduino IDE -->
-    <rect x="714" y="318" width="240" height="64" rx="14" fill="#000000" />
-    <rect x="710" y="314" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="830" y="353" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Arduino IDE</text>
+      <!-- 2. Arduino IDE -->
+      <g transform="translate(25, 175)">
+        <rect x="4" y="4" width="240" height="58" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="58" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Arduino IDE Icon -->
+        <g transform="translate(18, 14)">
+          <rect width="28" height="28" rx="7" fill="#008184"/>
+          <circle cx="10" cy="14" r="5" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+          <circle cx="18" cy="14" r="5" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+        </g>
+        <text class="nb-font" x="65" y="35" font-size="16" font-weight="900" fill="#000000">Arduino IDE</text>
+      </g>
 
-    <!-- 3. Tinkercad -->
-    <rect x="714" y="422" width="240" height="64" rx="14" fill="#000000" />
-    <rect x="710" y="418" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="830" y="457" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Tinkercad</text>
+      <!-- 3. Tinkercad -->
+      <g transform="translate(25, 255)">
+        <rect x="4" y="4" width="240" height="58" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="58" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Tinkercad 3D Block / Logo -->
+        <g transform="translate(18, 14)">
+          <rect width="28" height="28" rx="7" fill="#005B94"/>
+          <polygon points="14,4 24,9 14,14 4,9" fill="#2ECC71"/>
+          <polygon points="4,9 14,14 14,24 4,19" fill="#3498DB"/>
+          <polygon points="14,14 24,9 24,19 14,24" fill="#E74C3C"/>
+        </g>
+        <text class="nb-font" x="65" y="35" font-size="16" font-weight="900" fill="#000000">Tinkercad</text>
+      </g>
 
-    <!-- 4. Leanbot -->
-    <rect x="714" y="526" width="240" height="64" rx="14" fill="#000000" />
-    <rect x="710" y="522" width="240" height="64" rx="14" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
-    <text class="nb-font" x="830" y="561" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.3">Leanbot</text>
+      <!-- 4. Leanbot -->
+      <g transform="translate(25, 335)">
+        <rect x="4" y="4" width="240" height="58" rx="12" fill="#000000" />
+        <rect x="0" y="0" width="240" height="58" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3" />
+        <!-- Leanbot Robot Icon -->
+        <g transform="translate(18, 14)">
+          <rect width="28" height="28" rx="7" fill="#FF6B00"/>
+          <rect x="6" y="8" width="16" height="13" rx="3" fill="#FFFFFF"/>
+          <circle cx="10" cy="14" r="2" fill="#FF6B00"/>
+          <circle cx="18" cy="14" r="2" fill="#FF6B00"/>
+          <line x1="14" y1="5" x2="14" y2="8" stroke="#FFFFFF" stroke-width="2"/>
+          <circle cx="14" cy="4" r="1.5" fill="#FFFFFF"/>
+        </g>
+        <text class="nb-font" x="65" y="35" font-size="16" font-weight="900" fill="#000000">Leanbot</text>
+      </g>
+    </g>
   </g>
 
 </svg>
