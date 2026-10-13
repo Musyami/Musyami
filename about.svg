@@ -1,94 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 590" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 480" width="100%" height="100%">
   <defs>
     <style>
       .nb-font {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       }
 
-      /* Animasi Naik-Turun (Floating) untuk Badge Kuning About Me */
-      @keyframes float-badge {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-8px); }
+      /* Animasi Geter (Vibrate / Shake Wiggle) untuk Badge Kuning About Me */
+      @keyframes shake-vibrate {
+        0%, 65%, 100% {
+          transform: translate(0px, 0px) rotate(0deg);
+        }
+        5% {
+          transform: translate(-3px, -1.5px) rotate(-2deg);
+        }
+        10% {
+          transform: translate(3px, 1.5px) rotate(2.5deg);
+        }
+        15% {
+          transform: translate(-3.5px, 1px) rotate(-2.5deg);
+        }
+        20% {
+          transform: translate(3.5px, -1px) rotate(2deg);
+        }
+        25% {
+          transform: translate(-2.5px, 2px) rotate(-1.5deg);
+        }
+        30% {
+          transform: translate(2.5px, -1.5px) rotate(1.5deg);
+        }
+        35% {
+          transform: translate(-1.5px, 1px) rotate(-0.8deg);
+        }
+        40% {
+          transform: translate(1.5px, -1px) rotate(0.8deg);
+        }
+        45%, 60% {
+          transform: translate(0px, 0px) rotate(0deg);
+        }
       }
 
-      .floating-about {
-        animation: float-badge 2.6s ease-in-out infinite;
-      }
-
-      /* Animasi Tangan Melambai untuk Karakter Pixel */
-      @keyframes wave-pixel-arm {
-        0% { transform: rotate(0deg); }
-        15% { transform: rotate(18deg); }
-        30% { transform: rotate(-8deg); }
-        45% { transform: rotate(18deg); }
-        60% { transform: rotate(-5deg); }
-        75% { transform: rotate(12deg); }
-        85% { transform: rotate(0deg); }
-        100% { transform: rotate(0deg); }
-      }
-
-      .pixel-arm {
-        transform-origin: 58px 145px;
-        animation: wave-pixel-arm 2.2s ease-in-out infinite;
+      .shaking-badge {
+        transform-origin: 123px 40px;
+        animation: shake-vibrate 1.8s ease-in-out infinite;
       }
     </style>
   </defs>
 
   <!-- ================= 1. KOTAK BIRU UTAMA & BAYANGAN NEO-BRUTALISM ================= -->
   <!-- Bayangan Hitam Tebal -->
-  <rect x="52" y="34" width="940" height="538" rx="22" fill="#000000" />
+  <rect x="52" y="34" width="940" height="428" rx="22" fill="#000000" />
   
   <!-- Kotak Biru Depan -->
-  <rect x="42" y="24" width="940" height="538" rx="22" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
+  <rect x="42" y="24" width="940" height="428" rx="22" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
 
-  <!-- ================= 2. KARAKTER PIXEL DENGAN TANGAN MELAMBAI ================= -->
-  <g transform="translate(130, 105)">
-    <!-- Badan Karakter Utama -->
-    <image href="./assets/char.png" x="0" y="0" width="190" height="422" />
-
-    <!-- Lengan Pixel yang Bergerak Melambai (Waving Arm) -->
-    <g transform="translate(-32, 92)">
-      <g class="pixel-arm">
-        <animateTransform
-          attributeName="transform"
-          type="rotate"
-          values="0 58 145; 18 58 145; -8 58 145; 18 58 145; -5 58 145; 12 58 145; 0 58 145; 0 58 145"
-          keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.85; 1"
-          dur="2.2s"
-          repeatCount="indefinite" />
-        <image href="./assets/arm.png" x="0" y="0" width="74" height="162" />
-      </g>
-    </g>
-  </g>
-
-  <!-- ================= 3. TEKS DESKRIPSI ABOUT ME ================= -->
-  <g transform="translate(336, 128)" class="nb-font">
-    <text font-size="22" font-weight="800" fill="#FFFFFF" letter-spacing="-0.2">
-      <tspan x="0" y="0">I am an Information Systems undergraduate</tspan>
-      <tspan x="0" y="34">student at Institut Teknologi Sepuluh Nopember</tspan>
-      <tspan x="0" y="68">(ITS) who bridges technical adaptability with</tspan>
-      <tspan x="0" y="102">organizational leadership. I specialize in AI-</tspan>
-      <tspan x="0" y="136">assisted Vibe Coding and modern web platforms,</tspan>
-      <tspan x="0" y="170">alongside a strong passion for robotics,</tspan>
-      <tspan x="0" y="204">microcontrollers, and hardware integration.</tspan>
-      <tspan x="0" y="238">Beyond technical execution, my background</tspan>
-      <tspan x="0" y="272">leading student organizations drives my ability to</tspan>
-      <tspan x="0" y="306">coordinate cross-functional teams and manage</tspan>
-      <tspan x="0" y="340">complex projects. I am always open to exciting</tspan>
-      <tspan x="0" y="374">collaborations and internships where I can build</tspan>
-      <tspan x="0" y="408">impactful digital realities.</tspan>
+  <!-- ================= 2. TEKS DESKRIPSI ABOUT ME ================= -->
+  <g transform="translate(106, 134)" class="nb-font">
+    <text font-size="23" font-weight="800" fill="#FFFFFF" letter-spacing="-0.2">
+      <tspan x="0" y="0">I am an Information Systems undergraduate student at Institut</tspan>
+      <tspan x="0" y="32">Teknologi Sepuluh Nopember (ITS) who bridges technical</tspan>
+      <tspan x="0" y="64">adaptability with organizational leadership. I specialize in AI-</tspan>
+      <tspan x="0" y="96">assisted Vibe Coding and modern web platforms, alongside a</tspan>
+      <tspan x="0" y="128">strong passion for robotics, microcontrollers, and hardware</tspan>
+      <tspan x="0" y="160">integration. Beyond technical execution, my background leading</tspan>
+      <tspan x="0" y="192">student organizations drives my ability to coordinate cross-</tspan>
+      <tspan x="0" y="224">functional teams and manage complex projects. I am always open</tspan>
+      <tspan x="0" y="256">to exciting collaborations and internships where I can build</tspan>
+      <tspan x="0" y="288">impactful digital realities.</tspan>
     </text>
   </g>
 
-  <!-- ================= 4. CARD KUNING "ABOUT ME" (ANIMASI NAIK TURUN) ================= -->
-  <!-- Diletakkan paling bawah di markup agar berada di lapisan terdepan -->
-  <g class="floating-about">
+  <!-- ================= 3. CARD KUNING "ABOUT ME" (ANIMASI GETER) ================= -->
+  <!-- Diletakkan paling bawah di markup agar menimpa border kotak biru -->
+  <g class="shaking-badge">
+    <!-- Animasi SMIL Native untuk Kompatibilitas Penuh di GitHub -->
     <animateTransform
       attributeName="transform"
-      type="translate"
-      values="0 0; 0 -8; 0 0"
-      keyTimes="0; 0.5; 1"
-      dur="2.5s"
+      type="rotate"
+      values="0 123 40; -2.5 123 40; 2.5 123 40; -3 123 40; 3 123 40; -1.5 123 40; 1.5 123 40; -0.5 123 40; 0 123 40; 0 123 40"
+      keyTimes="0; 0.06; 0.12; 0.18; 0.24; 0.30; 0.36; 0.42; 0.50; 1"
+      dur="1.8s"
       repeatCount="indefinite" />
 
     <!-- Bayangan Hitam Card Kuning -->
