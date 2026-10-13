@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 480" width="100%" height="100%">
+  <defs>
+    <style>
+      .nb-font {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      /* Animasi Naik-Turun Lembut dengan Geter Pelan (Barengan) */
+      @keyframes float-gentle-shake {
+        0%, 100% {
+          transform: translateY(0px) rotate(0deg);
+        }
+        10% {
+          transform: translateY(-2px) rotate(-0.5deg);
+        }
+        20% {
+          transform: translateY(-4.5px) rotate(0.6deg);
+        }
+        30% {
+          transform: translateY(-7px) rotate(-0.6deg);
+        }
+        40% {
+          transform: translateY(-8.5px) rotate(0.5deg);
+        }
+        50% {
+          transform: translateY(-9px) rotate(0deg);
+        }
+        60% {
+          transform: translateY(-7.5px) rotate(-0.5deg);
+        }
+        70% {
+          transform: translateY(-5px) rotate(0.6deg);
+        }
+        80% {
+          transform: translateY(-2.5px) rotate(-0.5deg);
+        }
+        90% {
+          transform: translateY(-1px) rotate(0.4deg);
+        }
+      }
+
+      .floating-shake-container {
+        transform-origin: 505px 240px;
+        animation: float-gentle-shake 3.2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- ================= CONTAINER BERSAMA (CARD MERAH + BADGE BIRU BERGERAK BARENGAN) ================= -->
+  <g class="floating-shake-container">
+    <!-- SMIL Fallback untuk Kompatibilitas Penuh Animasi di GitHub -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; -1 -2; 1.2 -4.5; -1 -7; 0.8 -8.5; 0 -9; -0.8 -7.5; 1 -5; -1 -2.5; 0.5 -1; 0 0"
+      keyTimes="0; 0.1; 0.2; 0.3; 0.4; 0.5; 0.6; 0.7; 0.8; 0.9; 1"
+      dur="3.2s"
+      repeatCount="indefinite" />
+
+    <!-- ================= 1. KOTAK MERAH UTAMA & BAYANGAN NEO-BRUTALISM ================= -->
+    <!-- Bayangan Hitam Tebal -->
+    <rect x="52" y="34" width="940" height="428" rx="22" fill="#000000" />
+    
+    <!-- Kotak Merah Depan -->
+    <rect x="42" y="24" width="940" height="428" rx="22" fill="#FF3823" stroke="#000000" stroke-width="4.5" />
+
+    <!-- ================= 2. TEKS DESKRIPSI WHAT I'M LEARNING ================= -->
+    <g transform="translate(106, 140)" class="nb-font">
+      <text font-size="23.5" font-weight="800" fill="#FFFFFF" letter-spacing="-0.2">
+        <tspan x="0" y="0">Right now I am actively leveling up my programming and web</tspan>
+        <tspan x="0" y="36">development skills through my internship at Barunastra as part of</tspan>
+        <tspan x="0" y="72">the Programming Division Web Development Subdivision. Beyond</tspan>
+        <tspan x="0" y="108">my internship I enjoy building practical web systems exploring</tspan>
+        <tspan x="0" y="144">hardware software integration and connecting digital platforms</tspan>
+        <tspan x="0" y="180">with real world applications to solve structural challenges.</tspan>
+      </text>
+    </g>
+
+    <!-- ================= 3. BADGE BIRU: WHAT I'M LEARNING ================= -->
+    <!-- Diletakkan paling bawah di markup agar menimpa border kotak merah -->
+    <g>
+      <!-- Bayangan Hitam Badge Biru -->
+      <rect x="16" y="16" width="320" height="66" rx="16" fill="#000000" />
+      
+      <!-- Badge Biru Depan -->
+      <rect x="6" y="6" width="320" height="66" rx="16" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
+      
+      <!-- Teks Putih "What I’m learning" -->
+      <text class="nb-font" x="166" y="49" font-size="27" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">
+        What I’m learning
+      </text>
+    </g>
+  </g>
+
+</svg>
