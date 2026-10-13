@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 590" width="100%" height="100%">
+  <defs>
+    <style>
+      .nb-font {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      /* Animasi Naik-Turun (Floating) untuk Badge Kuning About Me */
+      @keyframes float-badge {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+
+      .floating-about {
+        animation: float-badge 2.6s ease-in-out infinite;
+      }
+
+      /* Animasi Tangan Melambai untuk Karakter Pixel */
+      @keyframes wave-pixel-arm {
+        0% { transform: rotate(0deg); }
+        15% { transform: rotate(18deg); }
+        30% { transform: rotate(-8deg); }
+        45% { transform: rotate(18deg); }
+        60% { transform: rotate(-5deg); }
+        75% { transform: rotate(12deg); }
+        85% { transform: rotate(0deg); }
+        100% { transform: rotate(0deg); }
+      }
+
+      .pixel-arm {
+        transform-origin: 58px 145px;
+        animation: wave-pixel-arm 2.2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- ================= 1. KOTAK BIRU UTAMA & BAYANGAN NEO-BRUTALISM ================= -->
+  <!-- Bayangan Hitam Tebal -->
+  <rect x="52" y="34" width="940" height="538" rx="22" fill="#000000" />
+  
+  <!-- Kotak Biru Depan -->
+  <rect x="42" y="24" width="940" height="538" rx="22" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
+
+  <!-- ================= 2. KARAKTER PIXEL DENGAN TANGAN MELAMBAI ================= -->
+  <g transform="translate(130, 105)">
+    <!-- Badan Karakter Utama -->
+    <image href="./assets/char.png" x="0" y="0" width="190" height="422" />
+
+    <!-- Lengan Pixel yang Bergerak Melambai (Waving Arm) -->
+    <g transform="translate(-32, 92)">
+      <g class="pixel-arm">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          values="0 58 145; 18 58 145; -8 58 145; 18 58 145; -5 58 145; 12 58 145; 0 58 145; 0 58 145"
+          keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.85; 1"
+          dur="2.2s"
+          repeatCount="indefinite" />
+        <image href="./assets/arm.png" x="0" y="0" width="74" height="162" />
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= 3. TEKS DESKRIPSI ABOUT ME ================= -->
+  <g transform="translate(336, 128)" class="nb-font">
+    <text font-size="22" font-weight="800" fill="#FFFFFF" letter-spacing="-0.2">
+      <tspan x="0" y="0">I am an Information Systems undergraduate</tspan>
+      <tspan x="0" y="34">student at Institut Teknologi Sepuluh Nopember</tspan>
+      <tspan x="0" y="68">(ITS) who bridges technical adaptability with</tspan>
+      <tspan x="0" y="102">organizational leadership. I specialize in AI-</tspan>
+      <tspan x="0" y="136">assisted Vibe Coding and modern web platforms,</tspan>
+      <tspan x="0" y="170">alongside a strong passion for robotics,</tspan>
+      <tspan x="0" y="204">microcontrollers, and hardware integration.</tspan>
+      <tspan x="0" y="238">Beyond technical execution, my background</tspan>
+      <tspan x="0" y="272">leading student organizations drives my ability to</tspan>
+      <tspan x="0" y="306">coordinate cross-functional teams and manage</tspan>
+      <tspan x="0" y="340">complex projects. I am always open to exciting</tspan>
+      <tspan x="0" y="374">collaborations and internships where I can build</tspan>
+      <tspan x="0" y="408">impactful digital realities.</tspan>
+    </text>
+  </g>
+
+  <!-- ================= 4. CARD KUNING "ABOUT ME" (ANIMASI NAIK TURUN) ================= -->
+  <!-- Diletakkan paling bawah di markup agar berada di lapisan terdepan -->
+  <g class="floating-about">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 0 -8; 0 0"
+      keyTimes="0; 0.5; 1"
+      dur="2.5s"
+      repeatCount="indefinite" />
+
+    <!-- Bayangan Hitam Card Kuning -->
+    <rect x="16" y="16" width="235" height="66" rx="16" fill="#000000" />
+    
+    <!-- Card Kuning -->
+    <rect x="6" y="6" width="235" height="66" rx="16" fill="#FFF827" stroke="#000000" stroke-width="4.5" />
+    
+    <!-- Teks Putih "About Me" -->
+    <text class="nb-font" x="123" y="50" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">
+      About Me
+    </text>
+  </g>
+
+</svg>
