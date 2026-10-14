@@ -1,249 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 985 460" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 500" width="100%" role="img" aria-label="GitHub Stats dan GitHub Streak Stats" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowYzZkMmYzYy1iOTI5LTQ0NmQtYjY0Ny05MGRlYjQ3NDM5ODUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOMGrgh5htt8iOYsymAOyjYAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2YzRlMWJhMi1lYTg3LTQ4MzItYTJhOS1kMmZlNGI0NzdjMjNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoPMeS8bZoUC8tP7lctRBGpwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg9Wa2ECKSB/aNPjT0XlB3N2eAwNXHYA904630f9sBDS6kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJ4ORUntMMvz2auftQu0a/MAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAJzg77sFQj738VJTL60QGGrM7nfR5VyCaO7gPSarLLL2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjHZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjBjNmQyZjNjLWI5MjktNDQ2ZC1iNjQ3LTkwZGViNDc0Mzk4NS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmJjODlhYThkLTcwMDktNGVhNi1hMzc0LTg4M2ZmZTY4ZDIwNHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD1ZrYQIpIH9o0+NPReUHc3Z4DA1cdgD3TjrfR/2wENLqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggoQPuCPK7fgJgezF7cJ6xzTUsrCiX+inbhmFLn7YTOw6iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggGsK0o+pIFPKAcoz5sKI990QBwH2WGNFj7ydoELJWtuJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQHEAcP7GCwCPpJtMAZ1Rf4yn72OW9ELmRX4eyZpxivZdMv4JZi0lTLYOnjwfqV3ws/GOG5VFLaPbe82eLtfVM4E=</c2pa:manifest></metadata>
+  <title>GitHub Stats dan GitHub Streak Stats</title>
   <defs>
     <style>
-      .nb-font {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      }
+      .f { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
-      /* Animasi Halus Kedip Api Streak */
-      @keyframes flame-pulse {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.12); }
-      }
+      /* ===== Kartu naik-turun ===== */
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      .float-l { animation: float 4s ease-in-out infinite; }
+      .float-r { animation: float 4s ease-in-out infinite; animation-delay: -2s; }
 
-      .flame-anim {
-        transform-origin: 736px 148px;
-        animation: flame-pulse 1.8s ease-in-out infinite;
+      /* ===== D-pad plus ditekan bergantian ===== */
+      @keyframes dpad-push { 0%, 100% { transform: translate(0, 0); } 12% { transform: translate(3px, 3px); } 30% { transform: translate(0, 0); } }
+      @keyframes arm-flash { 0%, 100% { opacity: 0; } 1% { opacity: 1; } 6.5% { opacity: 1; } 8% { opacity: 0; } }
+      .dpad-l { animation: dpad-push 1s ease-in-out infinite; }
+      .dpad-r { animation: dpad-push 1.3s ease-in-out infinite; }
+      .arm { opacity: 0; }
+      .arm-l { animation: arm-flash 4s linear infinite; }
+      .arm-r { animation: arm-flash 5.2s linear infinite; }
+      .a0-l { animation-delay: 0s; }    .a1-l { animation-delay: 1s; }    .a2-l { animation-delay: 2s; }    .a3-l { animation-delay: 3s; }
+      .a0-r { animation-delay: 0s; }    .a1-r { animation-delay: 1.3s; }  .a2-r { animation-delay: 2.6s; }  .a3-r { animation-delay: 3.9s; }
+
+      /* ===== Tombol bulat ditekan gantian ===== */
+      @keyframes btn-press {
+        0%, 16%, 100% { transform: translate(0, 0); fill: #FF4027; }
+        6% { transform: translate(4px, 4px); fill: #D92E15; }
       }
+      .btn { fill: #FF4027; }
+      .btn-l { animation: btn-press 3.2s ease-in-out infinite; }
+      .btn-r { animation: btn-press 3.9s ease-in-out infinite; }
+      .b0-l { animation-delay: 0s; }     .b1-l { animation-delay: .8s; }    .b2-l { animation-delay: 1.6s; }   .b3-l { animation-delay: 2.4s; }
+      .b0-r { animation-delay: 1.95s; }  .b1-r { animation-delay: 0s; }     .b2-r { animation-delay: .975s; }  .b3-r { animation-delay: 2.925s; }
+
+      /* ===== Lingkaran rank: busur terisi + titik mengorbit + huruf berdenyut ===== */
+      @keyframes ring-fill { 0% { stroke-dashoffset: 226.2; } 55%, 100% { stroke-dashoffset: 212.6; } }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes rank-pop { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.12); } }
+      .ring-arc { stroke-dasharray: 226.2; stroke-dashoffset: 212.6; animation: ring-fill 4.5s cubic-bezier(.2,.7,.2,1) infinite; }
+      .orbit { transform-origin: 0 0; animation: orbit 7s linear infinite; }
+      .rank-letter { transform-box: fill-box; transform-origin: center; animation: rank-pop 2.4s ease-in-out infinite; }
+
+      /* ===== Api streak berkobar (zoom in - zoom out) ===== */
+      @keyframes flame-outer { 0%, 100% { transform: scale(.88, .86); } 30% { transform: scale(1.08, 1.22); } 60% { transform: scale(1.2, 1.1); } 80% { transform: scale(.98, 1.18); } }
+      @keyframes flame-inner { 0%, 100% { transform: scale(1.1, 1.05); } 40% { transform: scale(.8, .75); } 70% { transform: scale(1.18, 1.25); } }
+      .flame-o { transform-box: fill-box; transform-origin: 50% 100%; animation: flame-outer 1.3s ease-in-out infinite; }
+      .flame-i { transform-box: fill-box; transform-origin: 50% 100%; animation: flame-inner 1.3s ease-in-out infinite; }
     </style>
   </defs>
 
-  <!-- ========================================================================= -->
-  <!-- 1. CARD KUNING (KIRI) : NINTENDO GITHUB STATS CARD                        -->
-  <!-- ========================================================================= -->
+  <!-- ===================================================== -->
+  <!-- KONSOL KUNING : GITHUB STATS                          -->
+  <!-- ===================================================== -->
+  <g class="float-l">
+    <g transform="translate(0,0)">
+      <rect x="16" y="56" width="450" height="434" rx="34" fill="#000"/>
+      <rect x="6" y="46" width="450" height="434" rx="34" fill="#FFF827" stroke="#000" stroke-width="6"/>
 
-  <!-- Bayangan Hitam Konsol Kuning -->
-  <rect x="18" y="18" width="446" height="424" rx="32" fill="#000000" />
+      <!-- layar -->
+      <rect x="40" y="76" width="398" height="250" rx="22" fill="#000"/>
+      <rect x="32" y="68" width="398" height="250" rx="22" fill="#fff" stroke="#000" stroke-width="6"/>
 
-  <!-- Bodi Konsol Kuning -->
-  <rect x="8" y="8" width="446" height="424" rx="32" fill="#FFF827" stroke="#000000" stroke-width="5" />
+      <!-- judul -->
+      <rect x="62" y="92" width="168" height="40" rx="12" fill="#000"/>
+      <rect x="57" y="87" width="168" height="40" rx="12" fill="#2F7BFF" stroke="#000" stroke-width="5"/>
+      <text class="f" x="141" y="114" font-size="18" font-weight="900" fill="#fff" text-anchor="middle" textLength="136" lengthAdjust="spacingAndGlyphs">GITHUB STATS</text>
 
-  <!-- ================= LAYAR GITHUB STATS (BACKGROUND PUTIH) ================= -->
-  <!-- Bayangan Layar -->
-  <rect x="46" y="40" width="374" height="246" rx="18" fill="#000000" />
+      <!-- baris statistik -->
+      <g class="f" font-size="14" font-weight="800" fill="#000">
+        <g transform="translate(58,152)">
+          <path d="M8 1.8 L9.9 6.4 L14.8 6.8 L11 10 L12.2 14.9 L8 12.2 L3.8 14.9 L5 10 L1.2 6.8 L6.1 6.4 Z" fill="none" stroke="#222" stroke-width="1.6" stroke-linejoin="round"/>
+          <text x="26" y="13">Total Stars Earned:</text>
+          <text x="262" y="13" font-weight="900" text-anchor="end">0</text>
+        </g>
+        <g transform="translate(58,184)">
+          <path d="M2.2 8 a5.8 5.8 0 1 1 1.6 4 M2.2 8 V4.6 M2.2 8 H5.6 M8 4.8 V8.2 L10.2 9.6" fill="none" stroke="#222" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="26" y="13">Total Commits (last year):</text>
+          <text x="262" y="13" font-weight="900" text-anchor="end">17</text>
+        </g>
+        <g transform="translate(58,216)">
+          <circle cx="4" cy="4" r="2.2" fill="none" stroke="#222" stroke-width="1.6"/>
+          <circle cx="4" cy="12.5" r="2.2" fill="none" stroke="#222" stroke-width="1.6"/>
+          <circle cx="12.5" cy="12.5" r="2.2" fill="none" stroke="#222" stroke-width="1.6"/>
+          <path d="M4 6.2 V10.3 M12.5 10.3 V6.5 a2 2 0 0 0 -2 -2 H8.5" fill="none" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+          <text x="26" y="13">Total PRs:</text>
+          <text x="262" y="13" font-weight="900" text-anchor="end">0</text>
+        </g>
+        <g transform="translate(58,248)">
+          <circle cx="8" cy="8" r="6.6" fill="none" stroke="#222" stroke-width="1.6"/>
+          <line x1="8" y1="4.6" x2="8" y2="8.6" stroke="#222" stroke-width="1.7" stroke-linecap="round"/>
+          <circle cx="8" cy="11.3" r="1" fill="#222"/>
+          <text x="26" y="13">Total Issues:</text>
+          <text x="262" y="13" font-weight="900" text-anchor="end">0</text>
+        </g>
+        <g transform="translate(58,280)">
+          <rect x="2" y="2.5" width="12" height="9" rx="1.6" fill="none" stroke="#222" stroke-width="1.6"/>
+          <line x1="0.8" y1="14" x2="15.2" y2="14" stroke="#222" stroke-width="1.6" stroke-linecap="round"/>
+          <text x="26" y="13">Contributed to (last year):</text>
+          <text x="262" y="13" font-weight="900" text-anchor="end">0</text>
+        </g>
+      </g>
 
-  <!-- Layar Putih Utama -->
-  <rect x="38" y="32" width="374" height="246" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" />
+      <!-- lingkaran rank -->
+      <g transform="translate(378,208)">
+        <circle r="36" fill="none" stroke="#D2D2D2" stroke-width="8"/>
+        <g transform="rotate(-90)">
+          <circle class="ring-arc" r="36" fill="none" stroke="#2F7BFF" stroke-width="8" stroke-linecap="round"/>
+        </g>
+        <g class="orbit"><circle cx="0" cy="-36" r="3.6" fill="#111"/></g>
+        <text class="f rank-letter" x="0" y="14" font-size="40" font-weight="900" fill="#000" text-anchor="middle">C</text>
+      </g>
 
-  <!-- Header Layar Stats: Badge Biru "GitHub Stats" -->
-  <rect x="54" y="46" width="170" height="32" rx="8" fill="#297DFA" stroke="#000000" stroke-width="3" />
-  <text class="nb-font" x="139" y="68" font-size="15" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">
-    GITHUB STATS
-  </text>
-
-  <!-- Lingkaran Rank Badge (A+) di Kanan Atas Layar -->
-  <g transform="translate(350, 95)">
-    <circle cx="2" cy="2" r="30" fill="#000000" />
-    <circle cx="0" cy="0" r="30" fill="#FFF827" stroke="#000000" stroke-width="3.5" />
-    <text class="nb-font" x="0" y="-8" font-size="10" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">RANK</text>
-    <text class="nb-font" x="0" y="16" font-size="24" font-weight="900" fill="#FF3823" text-anchor="middle">A+</text>
-  </g>
-
-  <!-- Daftar Metrik Stats (Baris 1 - 5) -->
-  <g class="nb-font" font-size="13.5" font-weight="800" fill="#000000">
-    <!-- Row 1: Stars -->
-    <g transform="translate(56, 108)">
-      <text x="0" y="0">⭐ Total Stars Earned</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">18</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 2: Commits -->
-    <g transform="translate(56, 136)">
-      <text x="0" y="0">📝 Total Commits</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">342</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 3: PRs -->
-    <g transform="translate(56, 164)">
-      <text x="0" y="0">🔀 Total PRs</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">24</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 4: Issues -->
-    <g transform="translate(56, 192)">
-      <text x="0" y="0">⚠️ Total Issues</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">8</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 5: Contributed to -->
-    <g transform="translate(56, 220)">
-      <text x="0" y="0">📦 Contributed To</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">12</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
+      <g transform="translate(100,404)"><path d="M-13 -39 H13 V-13 H39 V13 H13 V39 H-13 V13 H-39 V-13 H-13 Z" fill="#000" transform="translate(5,5)"/><g class="dpad-l"><path d="M-13 -39 H13 V-13 H39 V13 H13 V39 H-13 V13 H-39 V-13 H-13 Z" fill="#FF4027"/><rect class="arm arm-l a0-l" x="-13" y="-39" width="26" height="26" fill="#B3200D"/><rect class="arm arm-l a1-l" x="13" y="-13" width="26" height="26" fill="#B3200D"/><rect class="arm arm-l a2-l" x="-13" y="13" width="26" height="26" fill="#B3200D"/><rect class="arm arm-l a3-l" x="-39" y="-13" width="26" height="26" fill="#B3200D"/><path d="M-13 -39 H13 V-13 H39 V13 H13 V39 H-13 V13 H-39 V-13 H-13 Z" fill="none" stroke="#000" stroke-width="5" stroke-linejoin="round"/></g></g><g transform="translate(352,404)"><circle cx="0" cy="-34" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-l b0-l" cx="0" cy="-34" r="16" stroke="#000" stroke-width="4.5"/><circle cx="34" cy="0" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-l b1-l" cx="34" cy="0" r="16" stroke="#000" stroke-width="4.5"/><circle cx="0" cy="34" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-l b2-l" cx="0" cy="34" r="16" stroke="#000" stroke-width="4.5"/><circle cx="-34" cy="0" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-l b3-l" cx="-34" cy="0" r="16" stroke="#000" stroke-width="4.5"/></g>
     </g>
   </g>
 
-  <!-- Mini Status Bar Bawah Layar -->
-  <rect x="54" y="244" width="342" height="20" rx="6" fill="#F4F4F4" stroke="#000000" stroke-width="2" />
-  <text class="nb-font" x="225" y="258" font-size="10.5" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-    ⚡ INFORMATION SYSTEMS • ITS SURABAYA
-  </text>
+  <!-- ===================================================== -->
+  <!-- KONSOL BIRU : GITHUB STREAK STATS                     -->
+  <!-- ===================================================== -->
+  <g class="float-r">
+    <g transform="translate(508,0)">
+      <rect x="16" y="56" width="450" height="434" rx="34" fill="#000"/>
+      <rect x="6" y="46" width="450" height="434" rx="34" fill="#2F7BFF" stroke="#000" stroke-width="6"/>
 
-  <!-- ================= TOMBOL D-PAD PLUS MERAH (KIRI BAWAH) ================= -->
-  <g transform="translate(122, 362)">
-    <path d="M -12 -33 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#000000" />
-    <path d="M -15 -36 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#FF4027" stroke="#000000" stroke-width="4.5" stroke-linejoin="round" />
-    <circle cx="-3" cy="-24" r="3" fill="#000000" opacity="0.3" />
-  </g>
+      <rect x="40" y="76" width="398" height="250" rx="22" fill="#000"/>
+      <rect x="32" y="68" width="398" height="250" rx="22" fill="#fff" stroke="#000" stroke-width="6"/>
 
-  <!-- ================= 4 TOMBOL BULAT MERAH (KANAN BAWAH) ================= -->
-  <g>
-    <circle cx="328" cy="326" r="14" fill="#000000" />
-    <circle cx="324" cy="322" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+      <!-- judul -->
+      <rect x="62" y="92" width="246" height="40" rx="12" fill="#000"/>
+      <rect x="57" y="87" width="246" height="40" rx="12" fill="#FFF827" stroke="#000" stroke-width="5"/>
+      <text class="f" x="180" y="114" font-size="18" font-weight="900" fill="#000" text-anchor="middle" textLength="214" lengthAdjust="spacingAndGlyphs">GITHUB STREAK STATS</text>
 
-    <circle cx="296" cy="358" r="14" fill="#000000" />
-    <circle cx="292" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+      <!-- kartu 1 : total kontribusi -->
+      <rect x="53" y="148" width="114" height="152" rx="16" fill="#000"/>
+      <rect x="48" y="143" width="114" height="152" rx="16" fill="#fff" stroke="#000" stroke-width="5"/>
+      <g class="f" text-anchor="middle">
+        <text x="105" y="196" font-size="30" font-weight="900" fill="#000">0</text>
+        <text x="105" y="219" font-size="11" font-weight="900" fill="#2F7BFF" letter-spacing=".5">TOTAL</text>
+        <text x="105" y="234" font-size="10" font-weight="800" fill="#8C8C8C">CONTRIBUTIONS</text>
+        <line x1="66" y1="246" x2="144" y2="246" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+        <text x="105" y="268" font-size="9" font-weight="800" fill="#6B6B6B" textLength="98" lengthAdjust="spacingAndGlyphs">Jun 25, 2025 - Present</text>
+      </g>
 
-    <circle cx="360" cy="358" r="14" fill="#000000" />
-    <circle cx="356" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+      <!-- kartu 2 : current streak -->
+      <rect x="181" y="148" width="114" height="152" rx="16" fill="#000"/>
+      <rect x="176" y="143" width="114" height="152" rx="16" fill="#FFF827" stroke="#000" stroke-width="5"/>
+      <g transform="translate(233,187)">
+        <circle r="19" fill="none" stroke="#F59E0B" stroke-width="3.5"/>
+        <g transform="translate(0,-17)">
+          <g class="flame-o"><path d="M0 -26 C2 -19 10 -15 10 -6 C10 -1 5 2 0 2 C-5 2 -10 -1 -10 -6 C-10 -11 -7 -14 -6 -18 C-3 -15 -1 -13 0 -9 C1 -15 -1 -20 0 -26 Z" fill="#E63946" stroke="#222" stroke-width="1.4" stroke-linejoin="round"/></g>
+          <g class="flame-i"><path d="M0 -12 C1 -8 4.5 -6.5 4.5 -3.4 C4.5 -1 2.5 0.6 0 0.6 C-2.5 0.6 -4.5 -1 -4.5 -3.4 C-4.5 -6.5 -1 -8 0 -12 Z" fill="#FFD043"/></g>
+        </g>
+        <text class="f" x="0" y="7" font-size="20" font-weight="900" fill="#000" text-anchor="middle">3</text>
+      </g>
+      <g class="f" text-anchor="middle">
+        <text x="233" y="229" font-size="12.5" font-weight="900" fill="#000">DAYS STREAK</text>
+        <line x1="194" y1="241" x2="272" y2="241" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+        <text x="233" y="258" font-size="9.5" font-weight="800" fill="#5E7FC4">Current Streak</text>
+        <text x="233" y="274" font-size="9" font-weight="800" fill="#2B2B2B" textLength="98" lengthAdjust="spacingAndGlyphs">Oct 11 - Oct 14, 2026</text>
+      </g>
 
-    <circle cx="328" cy="390" r="14" fill="#000000" />
-    <circle cx="324" cy="386" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
-  </g>
+      <!-- kartu 3 : longest streak -->
+      <rect x="309" y="148" width="114" height="152" rx="16" fill="#000"/>
+      <rect x="304" y="143" width="114" height="152" rx="16" fill="#EDEDED" stroke="#000" stroke-width="5"/>
+      <g class="f" text-anchor="middle">
+        <text x="361" y="196" font-size="30" font-weight="900" fill="#000">3</text>
+        <text x="361" y="219" font-size="11" font-weight="900" fill="#FF4027" letter-spacing=".5">LONGEST</text>
+        <text x="361" y="234" font-size="11" font-weight="800" fill="#8C8C8C" letter-spacing=".3">STREAK DAYS</text>
+        <line x1="322" y1="246" x2="400" y2="246" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+        <text x="361" y="268" font-size="9" font-weight="800" fill="#6B6B6B" textLength="98" lengthAdjust="spacingAndGlyphs">Oct 11 - Oct 14, 2026</text>
+      </g>
 
-
-  <!-- ========================================================================= -->
-  <!-- 2. CARD BIRU (KANAN) : NINTENDO GITHUB STREAK STATS CARD                  -->
-  <!-- ========================================================================= -->
-
-  <!-- Bayangan Hitam Konsol Biru -->
-  <rect x="532" y="18" width="446" height="424" rx="32" fill="#000000" />
-
-  <!-- Bodi Konsol Biru -->
-  <rect x="522" y="8" width="446" height="424" rx="32" fill="#297DFA" stroke="#000000" stroke-width="5" />
-
-  <!-- ================= LAYAR GITHUB STREAK (BACKGROUND PUTIH) ================= -->
-  <!-- Bayangan Layar -->
-  <rect x="560" y="40" width="374" height="246" rx="18" fill="#000000" />
-
-  <!-- Layar Putih Utama -->
-  <rect x="552" y="32" width="374" height="246" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" />
-
-  <!-- Header Layar Streak: Badge Kuning "GitHub Streak Stats" -->
-  <rect x="568" y="46" width="220" height="32" rx="8" fill="#FFF827" stroke="#000000" stroke-width="3" />
-  <text class="nb-font" x="678" y="68" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-    🔥 GITHUB STREAK STATS
-  </text>
-
-  <!-- Grid 3 Kolom Statistik Streak -->
-  
-  <!-- Kolom 1: Total Contributions -->
-  <g transform="translate(568, 96)">
-    <rect x="2" y="2" width="105" height="126" rx="12" fill="#000000" />
-    <rect x="0" y="0" width="105" height="126" rx="12" fill="#F8F9FA" stroke="#000000" stroke-width="3" />
-    
-    <text class="nb-font" x="52" y="32" font-size="28" font-weight="900" fill="#000000" text-anchor="middle">
-      486
-    </text>
-    <text class="nb-font" x="52" y="52" font-size="10" font-weight="900" fill="#297DFA" text-anchor="middle">
-      TOTAL
-    </text>
-    <text class="nb-font" x="52" y="66" font-size="9" font-weight="800" fill="#666666" text-anchor="middle">
-      CONTRIBUTIONS
-    </text>
-    <line x1="14" y1="78" x2="91" y2="78" stroke="#DDDDDD" stroke-width="1.5" />
-    <text class="nb-font" x="52" y="98" font-size="9" font-weight="700" fill="#888888" text-anchor="middle">
-      Sep 2025 -
-    </text>
-    <text class="nb-font" x="52" y="112" font-size="9" font-weight="800" fill="#000000" text-anchor="middle">
-      Present
-    </text>
-  </g>
-
-  <!-- Kolom 2 (Tengah - HERO STAT): Current Streak -->
-  <g transform="translate(684, 96)">
-    <rect x="2" y="2" width="112" height="126" rx="12" fill="#000000" />
-    <rect x="0" y="0" width="112" height="126" rx="12" fill="#FFF827" stroke="#000000" stroke-width="3.5" />
-
-    <g class="flame-anim">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1; 1.15; 1"
-        keyTimes="0; 0.5; 1"
-        dur="1.5s"
-        repeatCount="indefinite" />
-      <text class="nb-font" x="56" y="26" font-size="16" text-anchor="middle">🔥</text>
+      <g transform="translate(100,404)"><path d="M-13 -39 H13 V-13 H39 V13 H13 V39 H-13 V13 H-39 V-13 H-13 Z" fill="#000" transform="translate(5,5)"/><g class="dpad-r"><path d="M-13 -39 H13 V-13 H39 V13 H13 V39 H-13 V13 H-39 V-13 H-13 Z" fill="#FF4027"/><rect class="arm arm-r a0-r" x="-13" y="-39" width="26" height="26" fill="#B3200D"/><rect class="arm arm-r a1-r" x="13" y="-13" width="26" height="26" fill="#B3200D"/><rect class="arm arm-r a2-r" x="-13" y="13" width="26" height="26" fill="#B3200D"/><rect class="arm arm-r a3-r" x="-39" y="-13" width="26" height="26" fill="#B3200D"/><path d="M-13 -39 H13 V-13 H39 V13 H13 V39 H-13 V13 H-39 V-13 H-13 Z" fill="none" stroke="#000" stroke-width="5" stroke-linejoin="round"/></g></g><g transform="translate(352,404)"><circle cx="0" cy="-34" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-r b0-r" cx="0" cy="-34" r="16" stroke="#000" stroke-width="4.5"/><circle cx="34" cy="0" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-r b1-r" cx="34" cy="0" r="16" stroke="#000" stroke-width="4.5"/><circle cx="0" cy="34" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-r b2-r" cx="0" cy="34" r="16" stroke="#000" stroke-width="4.5"/><circle cx="-34" cy="0" r="16" fill="#000" transform="translate(5,5)"/><circle class="btn btn-r b3-r" cx="-34" cy="0" r="16" stroke="#000" stroke-width="4.5"/></g>
     </g>
-
-    <text class="nb-font" x="56" y="52" font-size="30" font-weight="900" fill="#FF3823" text-anchor="middle">
-      16
-    </text>
-    <text class="nb-font" x="56" y="68" font-size="10" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-      DAYS STREAK
-    </text>
-    <line x1="14" y1="78" x2="98" y2="78" stroke="#000000" stroke-width="1.5" />
-    <text class="nb-font" x="56" y="98" font-size="9" font-weight="700" fill="#444444" text-anchor="middle">
-      Current Streak
-    </text>
-    <text class="nb-font" x="56" y="112" font-size="9" font-weight="900" fill="#000000" text-anchor="middle">
-      Oct 1 - Oct 14
-    </text>
   </g>
-
-  <!-- Kolom 3: Longest Streak -->
-  <g transform="translate(806, 96)">
-    <rect x="2" y="2" width="105" height="126" rx="12" fill="#000000" />
-    <rect x="0" y="0" width="105" height="126" rx="12" fill="#F8F9FA" stroke="#000000" stroke-width="3" />
-
-    <text class="nb-font" x="52" y="32" font-size="28" font-weight="900" fill="#000000" text-anchor="middle">
-      32
-    </text>
-    <text class="nb-font" x="52" y="52" font-size="10" font-weight="900" fill="#FF3823" text-anchor="middle">
-      LONGEST
-    </text>
-    <text class="nb-font" x="52" y="66" font-size="9" font-weight="800" fill="#666666" text-anchor="middle">
-      STREAK DAYS
-    </text>
-    <line x1="14" y1="78" x2="91" y2="78" stroke="#DDDDDD" stroke-width="1.5" />
-    <text class="nb-font" x="52" y="98" font-size="9" font-weight="700" fill="#888888" text-anchor="middle">
-      Aug 15 -
-    </text>
-    <text class="nb-font" x="52" y="112" font-size="9" font-weight="800" fill="#000000" text-anchor="middle">
-      Sep 16
-    </text>
-  </g>
-
-  <!-- Mini Status Bar Bawah Layar Streak -->
-  <rect x="568" y="244" width="342" height="20" rx="6" fill="#F4F4F4" stroke="#000000" stroke-width="2" />
-  <text class="nb-font" x="739" y="258" font-size="10.5" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-    DAILY COMMITS • KEEP THE STREAK ON FIRE 🔥
-  </text>
-
-  <!-- ================= TOMBOL D-PAD PLUS MERAH (KANAN BAWAH) ================= -->
-  <g transform="translate(636, 362)">
-    <path d="M -12 -33 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#000000" />
-    <path d="M -15 -36 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#FF4027" stroke="#000000" stroke-width="4.5" stroke-linejoin="round" />
-    <circle cx="-3" cy="-24" r="3" fill="#000000" opacity="0.3" />
-  </g>
-
-  <!-- ================= 4 TOMBOL BULAT MERAH (KANAN BAWAH) ================= -->
-  <g>
-    <circle cx="842" cy="326" r="14" fill="#000000" />
-    <circle cx="838" cy="322" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
-
-    <circle cx="810" cy="358" r="14" fill="#000000" />
-    <circle cx="806" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
-
-    <circle cx="874" cy="358" r="14" fill="#000000" />
-    <circle cx="870" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
-
-    <circle cx="842" cy="390" r="14" fill="#000000" />
-    <circle cx="838" cy="386" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
-  </g>
-
 </svg>
