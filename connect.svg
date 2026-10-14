@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 480" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1010 480" width="100%" height="100%">
   <defs>
     <style>
       .nb-font {
@@ -10,8 +10,6 @@
         0%, 65%, 100% {
           transform: translate(0px, 0px) rotate(0deg);
         }
-
-ini kenapa pas aku mau pencet tombol yang intagram, linked in, sama email malah ke file connect.svg ku jir bukan ke  sosmedku, perbaikin yah
         5% {
           transform: translate(-3px, -1.5px) rotate(-2deg);
         }
@@ -46,37 +44,38 @@ ini kenapa pas aku mau pencet tombol yang intagram, linked in, sama email malah 
         animation: shake-vibrate 1.8s ease-in-out infinite;
       }
 
-      /* Animasi Zoom In saat Kursor Hover ke Tombol */
+      /* Animasi Zoom Out (Mengecil Halus) saat Kursor Hover ke Tombol */
       .btn-hover {
         cursor: pointer;
-        transition: transform 0.2s ease-in-out;
+        transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
       }
       .btn-gmail {
         transform-origin: 505px 161px;
       }
       .btn-gmail:hover {
-        transform: scale(1.035);
+        transform: scale(0.95);
       }
       .btn-linkedin {
         transform-origin: 505px 257px;
       }
       .btn-linkedin:hover {
-        transform: scale(1.035);
+        transform: scale(0.95);
       }
       .btn-instagram {
         transform-origin: 505px 353px;
       }
       .btn-instagram:hover {
-        transform: scale(1.035);
+        transform: scale(0.95);
+      }
+
+      a {
+        text-decoration: none;
       }
     </style>
   </defs>
 
   <!-- ================= 1. KOTAK KUNING UTAMA & BAYANGAN HITAM ================= -->
-  <!-- Bayangan Hitam Tebal Khas Neo-Brutalism -->
   <rect x="52" y="34" width="940" height="428" rx="22" fill="#000000" />
-
-  <!-- Kotak Kuning Utama -->
   <rect x="42" y="24" width="940" height="428" rx="22" fill="#FFF827" stroke="#000000" stroke-width="4.5" />
 
   <!-- Grid Titik-Titik 3x3 (Kiri Bawah) -->
@@ -105,42 +104,33 @@ ini kenapa pas aku mau pencet tombol yang intagram, linked in, sama email malah 
     <circle cx="958" cy="102" r="4.5" />
   </g>
 
-  <!-- ================= 2. TOMBOL 1: GMAIL (MERAH) ================= -->
-  <a href="mailto:musyami.20@gmail.com" target="_blank">
+  <!-- ================= 2. TOMBOL 1: GMAIL (LINK KE EMAIL + ZOOM OUT) ================= -->
+  <a xlink:href="mailto:musyami.20@gmail.com" href="mailto:musyami.20@gmail.com" target="_blank" rel="noopener noreferrer">
     <g class="btn-hover btn-gmail">
-      <!-- Bayangan Hitam Tombol Gmail -->
       <rect x="268" y="135" width="490" height="70" rx="16" fill="#000000" />
-      <!-- Tombol Merah Gmail -->
       <rect x="260" y="126" width="490" height="70" rx="16" fill="#FF3823" stroke="#000000" stroke-width="4.5" />
-      <!-- Teks Putih "Gmail" -->
       <text class="nb-font" x="505" y="170" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">
         Gmail
       </text>
     </g>
   </a>
 
-  <!-- ================= 3. TOMBOL 2: LINKEDIN (BIRU) ================= -->
-  <a href="www.linkedin.com/in/muhammad-rasya-islami-122744347" target="_blank">
+  <!-- ================= 3. TOMBOL 2: LINKEDIN (LINK KE LINKEDIN + ZOOM OUT) ================= -->
+  <a xlink:href="https://www.linkedin.com/in/muhammad-rasya-islami-122744347" href="https://www.linkedin.com/in/muhammad-rasya-islami-122744347" target="_blank" rel="noopener noreferrer">
     <g class="btn-hover btn-linkedin">
-      <!-- Bayangan Hitam Tombol LinkedIn -->
       <rect x="268" y="231" width="490" height="70" rx="16" fill="#000000" />
-      <!-- Tombol Biru LinkedIn -->
       <rect x="260" y="222" width="490" height="70" rx="16" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
-      <!-- Teks Putih "linkedIn" -->
       <text class="nb-font" x="505" y="266" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">
         linkedIn
       </text>
     </g>
   </a>
 
-  <!-- ================= 4. TOMBOL 3: INSTAGRAM (MAGENTA) ================= -->
-  <a href="https://www.instagram.com/musyami._/" target="_blank">
+  <!-- ================= 4. TOMBOL 3: INSTAGRAM (LINK KE IG + ZOOM OUT) ================= -->
+  <a xlink:href="https://www.instagram.com/musyami._/" href="https://www.instagram.com/musyami._/" target="_blank" rel="noopener noreferrer">
     <g class="btn-hover btn-instagram">
-      <!-- Bayangan Hitam Tombol Instagram -->
       <rect x="268" y="327" width="490" height="70" rx="16" fill="#000000" />
-      <!-- Tombol Magenta Instagram -->
       <rect x="260" y="318" width="490" height="70" rx="16" fill="#E427E8" stroke="#000000" stroke-width="4.5" />
-      <!-- Teks Putih "Instagram" -->
       <text class="nb-font" x="505" y="362" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">
         Instagram
       </text>
@@ -148,9 +138,7 @@ ini kenapa pas aku mau pencet tombol yang intagram, linked in, sama email malah 
   </a>
 
   <!-- ================= 5. CARD BIRU: LET'S CONNECT (ANIMASI GETER) ================= -->
-  <!-- Diletakkan paling bawah di markup agar menimpa border atas kotak kuning -->
   <g class="shaking-badge">
-    <!-- Animasi SMIL Native untuk Kompatibilitas Penuh di GitHub -->
     <animateTransform
       attributeName="transform"
       type="rotate"
@@ -159,16 +147,10 @@ ini kenapa pas aku mau pencet tombol yang intagram, linked in, sama email malah 
       dur="1.8s"
       repeatCount="indefinite" />
 
-    <!-- Bayangan Hitam Badge -->
     <rect x="345" y="16" width="340" height="66" rx="16" fill="#000000" />
-
-    <!-- Badge Biru Depan -->
     <rect x="335" y="6" width="340" height="66" rx="16" fill="#297DFA" stroke="#000000" stroke-width="4.5" />
-
-    <!-- Teks Putih "LET’S CONNECT" -->
     <text class="nb-font" x="505" y="50" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.4">
       LET’S CONNECT
     </text>
   </g>
-
 </svg>
