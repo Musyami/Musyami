@@ -1,0 +1,29 @@
+name: Update Nintendo Stats Daily
+
+on:
+  schedule:
+    # Berjalan otomatis setiap hari jam 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Bisa ditrigger manual kapan saja lewat tab Actions
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update GitHub Stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Syncing latest stats for Muhammad Rasya Islami..."
+          # Script otomatis memperbarui angka commit & streak ke dalam file nintendo_stats.svg
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: auto-update nintendo stats [skip ci]" || exit 0
+          git push
