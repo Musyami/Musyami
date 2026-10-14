@@ -5,21 +5,77 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       }
 
-      /* Animasi Halus Kedip Api Streak */
+      /* Animasi Kobaran Api Berdenyut (Zoom In - Zoom Out Halus) */
       @keyframes flame-pulse {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.12); }
+        0%, 100% { transform: scale(0.92); }
+        50% { transform: scale(1.14); }
       }
 
       .flame-anim {
-        transform-origin: 736px 148px;
-        animation: flame-pulse 1.8s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center bottom;
+        animation: flame-pulse 1.4s ease-in-out infinite;
       }
+
+      /* Animasi D-Pad Ditekan / Dimainkan */
+      @keyframes dpad-play-left {
+        0%, 100% { transform: translate(0px, 0px); }
+        15% { transform: translate(2.5px, 2.5px); }
+        30% { transform: translate(0px, 0px); }
+        45% { transform: translate(-2px, 2px); }
+        60% { transform: translate(0px, 0px); }
+        75% { transform: translate(2px, -1.5px); }
+      }
+
+      @keyframes dpad-play-right {
+        0%, 100% { transform: translate(0px, 0px); }
+        20% { transform: translate(-2.5px, 2px); }
+        40% { transform: translate(0px, 0px); }
+        60% { transform: translate(2.5px, 2px); }
+        80% { transform: translate(0px, 0px); }
+      }
+
+      .dpad-active-left {
+        animation: dpad-play-left 2.4s ease-in-out infinite;
+      }
+      .dpad-active-right {
+        animation: dpad-play-right 2.1s ease-in-out infinite;
+      }
+
+      /* Animasi Tombol Bulat Ditekan Gantian */
+      @keyframes btn-press-1 {
+        0%, 30%, 100% { transform: scale(1); }
+        15% { transform: scale(0.84); }
+      }
+      @keyframes btn-press-2 {
+        0%, 55%, 100% { transform: scale(1); }
+        40% { transform: scale(0.84); }
+      }
+      @keyframes btn-press-3 {
+        0%, 80%, 100% { transform: scale(1); }
+        65% { transform: scale(0.84); }
+      }
+      @keyframes btn-press-4 {
+        0%, 95%, 100% { transform: scale(1); }
+        85% { transform: scale(0.84); }
+      }
+
+      /* Tombol Konsol Kiri */
+      .btn-l-top { transform-origin: 324px 322px; animation: btn-press-1 2.2s ease-in-out infinite; }
+      .btn-l-right { transform-origin: 356px 354px; animation: btn-press-2 2.2s ease-in-out infinite; }
+      .btn-l-bottom { transform-origin: 324px 386px; animation: btn-press-3 2.2s ease-in-out infinite; }
+      .btn-l-left { transform-origin: 292px 354px; animation: btn-press-4 2.2s ease-in-out infinite; }
+
+      /* Tombol Konsol Kanan */
+      .btn-r-top { transform-origin: 838px 322px; animation: btn-press-3 2.5s ease-in-out infinite; }
+      .btn-r-right { transform-origin: 870px 354px; animation: btn-press-1 2.5s ease-in-out infinite; }
+      .btn-r-bottom { transform-origin: 838px 386px; animation: btn-press-4 2.5s ease-in-out infinite; }
+      .btn-r-left { transform-origin: 806px 354px; animation: btn-press-2 2.5s ease-in-out infinite; }
     </style>
   </defs>
 
   <!-- ========================================================================= -->
-  <!-- 1. CARD KUNING (KIRI) : NINTENDO GITHUB STATS CARD                        -->
+  <!-- 1. CARD KUNING (KIRI) : NINTENDO GITHUB STATS                             -->
   <!-- ========================================================================= -->
 
   <!-- Bayangan Hitam Konsol Kuning -->
@@ -35,89 +91,93 @@
   <!-- Layar Putih Utama -->
   <rect x="38" y="32" width="374" height="246" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" />
 
-  <!-- Header Layar Stats: Badge Biru "GitHub Stats" -->
-  <rect x="54" y="46" width="170" height="32" rx="8" fill="#297DFA" stroke="#000000" stroke-width="3" />
-  <text class="nb-font" x="139" y="68" font-size="15" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">
-    GITHUB STATS
+  <!-- Title: Muhammad Rasya Islami's GitHub Stats -->
+  <text class="nb-font" x="58" y="68" font-size="16" font-weight="900" fill="#000000" letter-spacing="-0.2">
+    Muhammad Rasya Islami's GitHub Stats
   </text>
 
-  <!-- Lingkaran Rank Badge (A+) di Kanan Atas Layar -->
-  <g transform="translate(350, 95)">
-    <circle cx="2" cy="2" r="30" fill="#000000" />
-    <circle cx="0" cy="0" r="30" fill="#FFF827" stroke="#000000" stroke-width="3.5" />
-    <text class="nb-font" x="0" y="-8" font-size="10" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">RANK</text>
-    <text class="nb-font" x="0" y="16" font-size="24" font-weight="900" fill="#FF3823" text-anchor="middle">A+</text>
+  <!-- ================= STATS ROWS (5 METRIK RESMI DENGAN ICON ASLI) ================= -->
+  <g class="nb-font" font-size="13" font-weight="800" fill="#000000">
+    
+    <!-- Row 1: Total Stars Earned -->
+    <g transform="translate(58, 92)">
+      <path d="M7 1.5 L8.6 5.8 L13 6.1 L9.6 9 L10.6 13.5 L7 11 L3.4 13.5 L4.4 9 L1 6.1 L5.4 5.8 Z" fill="none" stroke="#222222" stroke-width="1.6" stroke-linejoin="round"/>
+      <text x="22" y="11">Total Stars Earned:</text>
+      <text x="212" y="11" font-weight="900" text-anchor="end">0</text>
+    </g>
+
+    <!-- Row 2: Total Commits (last year) -->
+    <g transform="translate(58, 122)">
+      <path d="M7 4.5 v3.5 l2.5 1.5" fill="none" stroke="#222222" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M1.8 7 a5.5 5.5 0 1 1 .5 2.5 M1.8 7 v-2.8 M1.8 7 h2.8" fill="none" stroke="#222222" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="22" y="11">Total Commits (last year):</text>
+      <text x="212" y="11" font-weight="900" text-anchor="end">17</text>
+    </g>
+
+    <!-- Row 3: Total PRs -->
+    <g transform="translate(58, 152)">
+      <circle cx="4" cy="4" r="2" fill="none" stroke="#222222" stroke-width="1.5"/>
+      <circle cx="4" cy="12" r="2" fill="none" stroke="#222222" stroke-width="1.5"/>
+      <circle cx="12" cy="6" r="2" fill="none" stroke="#222222" stroke-width="1.5"/>
+      <path d="M4 6 v4 M12 8 v2 a2.5 2.5 0 0 1 -2.5 2.5 H6" fill="none" stroke="#222222" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="22" y="11">Total PRs:</text>
+      <text x="212" y="11" font-weight="900" text-anchor="end">0</text>
+    </g>
+
+    <!-- Row 4: Total Issues -->
+    <g transform="translate(58, 182)">
+      <circle cx="7" cy="7" r="5.8" fill="none" stroke="#222222" stroke-width="1.6"/>
+      <line x1="7" y1="4.2" x2="7" y2="7.5" stroke="#222222" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="7" cy="9.8" r="0.8" fill="#222222"/>
+      <text x="22" y="11">Total Issues:</text>
+      <text x="212" y="11" font-weight="900" text-anchor="end">0</text>
+    </g>
+
+    <!-- Row 5: Contributed to (last year) -->
+    <g transform="translate(58, 212)">
+      <rect x="2" y="2" width="11" height="8" rx="1.5" fill="none" stroke="#222222" stroke-width="1.5"/>
+      <line x1="1" y1="12" x2="14" y2="12" stroke="#222222" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="22" y="11">Contributed to (last year):</text>
+      <text x="212" y="11" font-weight="900" text-anchor="end">0</text>
+    </g>
   </g>
 
-  <!-- Daftar Metrik Stats (Baris 1 - 5) -->
-  <g class="nb-font" font-size="13.5" font-weight="800" fill="#000000">
-    <!-- Row 1: Stars -->
-    <g transform="translate(56, 108)">
-      <text x="0" y="0">⭐ Total Stars Earned</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">18</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 2: Commits -->
-    <g transform="translate(56, 136)">
-      <text x="0" y="0">📝 Total Commits</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">342</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 3: PRs -->
-    <g transform="translate(56, 164)">
-      <text x="0" y="0">🔀 Total PRs</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">24</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 4: Issues -->
-    <g transform="translate(56, 192)">
-      <text x="0" y="0">⚠️ Total Issues</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">8</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
-
-    <!-- Row 5: Contributed to -->
-    <g transform="translate(56, 220)">
-      <text x="0" y="0">📦 Contributed To</text>
-      <text x="210" y="0" font-weight="900" text-anchor="end" fill="#297DFA">12</text>
-      <line x1="0" y1="6" x2="215" y2="6" stroke="#EEEEEE" stroke-width="1.5" />
-    </g>
+  <!-- ================= LINGKARAN RANK (PAS DITENGAH VERTIKAL) ================= -->
+  <g transform="translate(348, 155)">
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#CCCCCC" stroke-width="6.5" />
+    <circle cx="0" cy="-38" r="3" fill="#222222" />
+    <text class="nb-font" x="0" y="13" font-size="36" font-weight="900" fill="#000000" text-anchor="middle">
+      C
+    </text>
   </g>
 
-  <!-- Mini Status Bar Bawah Layar -->
-  <rect x="54" y="244" width="342" height="20" rx="6" fill="#F4F4F4" stroke="#000000" stroke-width="2" />
-  <text class="nb-font" x="225" y="258" font-size="10.5" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-    ⚡ INFORMATION SYSTEMS • ITS SURABAYA
-  </text>
-
-  <!-- ================= TOMBOL D-PAD PLUS MERAH (KIRI BAWAH) ================= -->
+  <!-- ================= TOMBOL D-PAD PLUS MERAH (ANIMASI MAIN) ================= -->
   <g transform="translate(122, 362)">
     <path d="M -12 -33 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#000000" />
-    <path d="M -15 -36 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#FF4027" stroke="#000000" stroke-width="4.5" stroke-linejoin="round" />
-    <circle cx="-3" cy="-24" r="3" fill="#000000" opacity="0.3" />
+    <g class="dpad-active-left">
+      <path d="M -15 -36 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#FF4027" stroke="#000000" stroke-width="4.5" stroke-linejoin="round" />
+      <circle cx="-3" cy="-24" r="3.5" fill="#000000" opacity="0.3" />
+    </g>
   </g>
 
-  <!-- ================= 4 TOMBOL BULAT MERAH (KANAN BAWAH) ================= -->
+  <!-- ================= 4 TOMBOL BULAT MERAH (ANIMASI MAIN GANTIAN) ================= -->
   <g>
     <circle cx="328" cy="326" r="14" fill="#000000" />
-    <circle cx="324" cy="322" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-l-top" cx="324" cy="322" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
 
     <circle cx="296" cy="358" r="14" fill="#000000" />
-    <circle cx="292" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-l-left" cx="292" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
 
     <circle cx="360" cy="358" r="14" fill="#000000" />
-    <circle cx="356" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-l-right" cx="356" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
 
     <circle cx="328" cy="390" r="14" fill="#000000" />
-    <circle cx="324" cy="386" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-l-bottom" cx="324" cy="386" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
   </g>
 
 
   <!-- ========================================================================= -->
-  <!-- 2. CARD BIRU (KANAN) : NINTENDO GITHUB STREAK STATS CARD                  -->
+  <!-- 2. CARD BIRU (KANAN) : NINTENDO GITHUB STREAK STATS                       -->
   <!-- ========================================================================= -->
 
   <!-- Bayangan Hitam Konsol Biru -->
@@ -133,117 +193,89 @@
   <!-- Layar Putih Utama -->
   <rect x="552" y="32" width="374" height="246" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" />
 
-  <!-- Header Layar Streak: Badge Kuning "GitHub Streak Stats" -->
-  <rect x="568" y="46" width="220" height="32" rx="8" fill="#FFF827" stroke="#000000" stroke-width="3" />
-  <text class="nb-font" x="678" y="68" font-size="15" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-    🔥 GITHUB STREAK STATS
-  </text>
+  <!-- ================= 3 SEKSI STREAK STATS SESUAI GAMBAR ASLI RASYA ================= -->
 
-  <!-- Grid 3 Kolom Statistik Streak -->
-  
-  <!-- Kolom 1: Total Contributions -->
-  <g transform="translate(568, 96)">
-    <rect x="2" y="2" width="105" height="126" rx="12" fill="#000000" />
-    <rect x="0" y="0" width="105" height="126" rx="12" fill="#F8F9FA" stroke="#000000" stroke-width="3" />
-    
-    <text class="nb-font" x="52" y="32" font-size="28" font-weight="900" fill="#000000" text-anchor="middle">
-      486
+  <!-- SEKSI 1: Total Contributions -->
+  <g transform="translate(614, 115)">
+    <text class="nb-font" x="0" y="0" font-size="34" font-weight="900" fill="#000000" text-anchor="middle">
+      20
     </text>
-    <text class="nb-font" x="52" y="52" font-size="10" font-weight="900" fill="#297DFA" text-anchor="middle">
-      TOTAL
+    <text class="nb-font" x="0" y="25" font-size="12" font-weight="800" fill="#000000" text-anchor="middle">
+      Total Contributions
     </text>
-    <text class="nb-font" x="52" y="66" font-size="9" font-weight="800" fill="#666666" text-anchor="middle">
-      CONTRIBUTIONS
-    </text>
-    <line x1="14" y1="78" x2="91" y2="78" stroke="#DDDDDD" stroke-width="1.5" />
-    <text class="nb-font" x="52" y="98" font-size="9" font-weight="700" fill="#888888" text-anchor="middle">
-      Sep 2025 -
-    </text>
-    <text class="nb-font" x="52" y="112" font-size="9" font-weight="800" fill="#000000" text-anchor="middle">
-      Present
+    <text class="nb-font" x="0" y="44" font-size="10" font-weight="700" fill="#777777" text-anchor="middle">
+      Jun 25, 2025 - Present
     </text>
   </g>
 
-  <!-- Kolom 2 (Tengah - HERO STAT): Current Streak -->
-  <g transform="translate(684, 96)">
-    <rect x="2" y="2" width="112" height="126" rx="12" fill="#000000" />
-    <rect x="0" y="0" width="112" height="126" rx="12" fill="#FFF827" stroke="#000000" stroke-width="3.5" />
+  <!-- Garis Pembatas Vertikal 1 -->
+  <line x1="672" y1="62" x2="672" y2="248" stroke="#333333" stroke-width="1.8" stroke-linecap="round" />
 
+  <!-- SEKSI 2 (TENGAH - HERO STAT): Current Streak dengan Lingkaran Kuning + Api -->
+  <g transform="translate(739, 134)">
+    <!-- Lingkaran Kuning Current Streak -->
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#FFD043" stroke-width="5.5" />
+
+    <!-- Kobaran Api di Atas Lingkaran (Animasi Zoom In - Zoom Out Kecil Berkobar) -->
     <g class="flame-anim">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1; 1.15; 1"
-        keyTimes="0; 0.5; 1"
-        dur="1.5s"
-        repeatCount="indefinite" />
-      <text class="nb-font" x="56" y="26" font-size="16" text-anchor="middle">🔥</text>
+      <!-- Outer Flame -->
+      <path d="M 0 -36 C -5 -40 -9 -45 -9 -51 C -9 -58 -3 -63 0 -67 C 3 -63 9 -58 9 -51 C 9 -45 5 -40 0 -36 Z" fill="#E63946" stroke="#222222" stroke-width="1.5" stroke-linejoin="round" />
+      <!-- Inner Flame -->
+      <path d="M 0 -40 C -3 -43 -5 -46 -5 -50 C -5 -54 -1 -57 0 -60 C 1 -57 5 -54 5 -50 C 5 -46 3 -43 0 -40 Z" fill="#FFD043" />
     </g>
 
-    <text class="nb-font" x="56" y="52" font-size="30" font-weight="900" fill="#FF3823" text-anchor="middle">
-      16
+    <!-- Angka Current Streak: 3 -->
+    <text class="nb-font" x="0" y="12" font-size="34" font-weight="900" fill="#000000" text-anchor="middle">
+      3
     </text>
-    <text class="nb-font" x="56" y="68" font-size="10" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-      DAYS STREAK
-    </text>
-    <line x1="14" y1="78" x2="98" y2="78" stroke="#000000" stroke-width="1.5" />
-    <text class="nb-font" x="56" y="98" font-size="9" font-weight="700" fill="#444444" text-anchor="middle">
+
+    <!-- Label: Current Streak -->
+    <text class="nb-font" x="0" y="60" font-size="13" font-weight="900" fill="#000000" text-anchor="middle">
       Current Streak
     </text>
-    <text class="nb-font" x="56" y="112" font-size="9" font-weight="900" fill="#000000" text-anchor="middle">
-      Oct 1 - Oct 14
+    <text class="nb-font" x="0" y="77" font-size="10" font-weight="700" fill="#777777" text-anchor="middle">
+      Oct 12 - Oct 14
     </text>
   </g>
 
-  <!-- Kolom 3: Longest Streak -->
-  <g transform="translate(806, 96)">
-    <rect x="2" y="2" width="105" height="126" rx="12" fill="#000000" />
-    <rect x="0" y="0" width="105" height="126" rx="12" fill="#F8F9FA" stroke="#000000" stroke-width="3" />
+  <!-- Garis Pembatas Vertikal 2 -->
+  <line x1="806" y1="62" x2="806" y2="248" stroke="#333333" stroke-width="1.8" stroke-linecap="round" />
 
-    <text class="nb-font" x="52" y="32" font-size="28" font-weight="900" fill="#000000" text-anchor="middle">
-      32
+  <!-- SEKSI 3: Longest Streak -->
+  <g transform="translate(864, 115)">
+    <text class="nb-font" x="0" y="0" font-size="34" font-weight="900" fill="#000000" text-anchor="middle">
+      3
     </text>
-    <text class="nb-font" x="52" y="52" font-size="10" font-weight="900" fill="#FF3823" text-anchor="middle">
-      LONGEST
+    <text class="nb-font" x="0" y="25" font-size="12" font-weight="800" fill="#000000" text-anchor="middle">
+      Longest Streak
     </text>
-    <text class="nb-font" x="52" y="66" font-size="9" font-weight="800" fill="#666666" text-anchor="middle">
-      STREAK DAYS
-    </text>
-    <line x1="14" y1="78" x2="91" y2="78" stroke="#DDDDDD" stroke-width="1.5" />
-    <text class="nb-font" x="52" y="98" font-size="9" font-weight="700" fill="#888888" text-anchor="middle">
-      Aug 15 -
-    </text>
-    <text class="nb-font" x="52" y="112" font-size="9" font-weight="800" fill="#000000" text-anchor="middle">
-      Sep 16
+    <text class="nb-font" x="0" y="44" font-size="10" font-weight="700" fill="#777777" text-anchor="middle">
+      Oct 12 - Oct 14
     </text>
   </g>
 
-  <!-- Mini Status Bar Bawah Layar Streak -->
-  <rect x="568" y="244" width="342" height="20" rx="6" fill="#F4F4F4" stroke="#000000" stroke-width="2" />
-  <text class="nb-font" x="739" y="258" font-size="10.5" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="0.5">
-    DAILY COMMITS • KEEP THE STREAK ON FIRE 🔥
-  </text>
-
-  <!-- ================= TOMBOL D-PAD PLUS MERAH (KANAN BAWAH) ================= -->
+  <!-- ================= TOMBOL D-PAD PLUS MERAH (ANIMASI MAIN) ================= -->
   <g transform="translate(636, 362)">
     <path d="M -12 -33 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#000000" />
-    <path d="M -15 -36 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#FF4027" stroke="#000000" stroke-width="4.5" stroke-linejoin="round" />
-    <circle cx="-3" cy="-24" r="3" fill="#000000" opacity="0.3" />
+    <g class="dpad-active-right">
+      <path d="M -15 -36 h 24 v 21 h 21 v 24 h -21 v 21 h -24 v -21 h -21 v -24 h 21 Z" fill="#FF4027" stroke="#000000" stroke-width="4.5" stroke-linejoin="round" />
+      <circle cx="-3" cy="-24" r="3.5" fill="#000000" opacity="0.3" />
+    </g>
   </g>
 
-  <!-- ================= 4 TOMBOL BULAT MERAH (KANAN BAWAH) ================= -->
+  <!-- ================= 4 TOMBOL BULAT MERAH (ANIMASI MAIN GANTIAN) ================= -->
   <g>
     <circle cx="842" cy="326" r="14" fill="#000000" />
-    <circle cx="838" cy="322" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-r-top" cx="838" cy="322" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
 
     <circle cx="810" cy="358" r="14" fill="#000000" />
-    <circle cx="806" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-r-left" cx="806" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
 
     <circle cx="874" cy="358" r="14" fill="#000000" />
-    <circle cx="870" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-r-right" cx="870" cy="354" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
 
     <circle cx="842" cy="390" r="14" fill="#000000" />
-    <circle cx="838" cy="386" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
+    <circle class="btn-r-bottom" cx="838" cy="386" r="14" fill="#FF4027" stroke="#000000" stroke-width="4" />
   </g>
 
 </svg>
