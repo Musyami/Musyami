@@ -2,9 +2,13 @@ name: Update Nintendo Stats Daily
 
 on:
   schedule:
-    # Berjalan otomatis setiap hari jam 00:00 UTC
+    # Otomatis jalan tiap hari jam 00:00 UTC
     - cron: '0 0 * * *'
-  workflow_dispatch: # Bisa ditrigger manual kapan saja lewat tab Actions
+  # Otomatis jalan juga tiap kali kamu push commit ke main
+  push:
+    branches: [ main ]
+  # Bisa ditest jalan manual kapan saja lewat tab Actions
+  workflow_dispatch:
 
 jobs:
   update-stats:
@@ -14,16 +18,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update GitHub Stats
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Syncing latest stats for Muhammad Rasya Islami..."
-          # Script otomatis memperbarui angka commit & streak ke dalam file nintendo_stats.svg
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Sync Stats with Live GitHub API
+        run: python sync_stats.py
 
       - name: Commit & Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -am "chore: auto-update nintendo stats [skip ci]" || exit 0
+          git add nintendo_stats.svg
+          git commit -m "chore: auto-update nintendo stats [skip ci]" || exit 0
           git push
