@@ -111,7 +111,7 @@
       <path d="M7 4.5 v3.5 l2.5 1.5" fill="none" stroke="#222222" stroke-width="1.6" stroke-linecap="round"/>
       <path d="M1.8 7 a5.5 5.5 0 1 1 .5 2.5 M1.8 7 v-2.8 M1.8 7 h2.8" fill="none" stroke="#222222" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="22" y="11">Total Commits (last year):</text>
-      <text x="212" y="11" font-weight="900" text-anchor="end">17</text>
+      <text x="212" y="11" font-weight="900" text-anchor="end">25</text>
     </g>
 
     <!-- Row 3: Total PRs -->
