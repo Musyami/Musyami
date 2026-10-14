@@ -15,6 +15,9 @@
    <img src="./learning.svg" alt="What I'm Learning Rasya" width="100%" />
    </div>
 
+<div align="center">
+   <img src="./nintendo_stats.svg" alt="Stats Github" width="100%" />
+   </div>
   
 
 <div align="center">
