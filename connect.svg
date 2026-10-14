@@ -10,6 +10,8 @@
         0%, 65%, 100% {
           transform: translate(0px, 0px) rotate(0deg);
         }
+
+ini kenapa pas aku mau pencet tombol yang intagram, linked in, sama email malah ke file connect.svg ku jir bukan ke  sosmedku, perbaikin yah
         5% {
           transform: translate(-3px, -1.5px) rotate(-2deg);
         }
